@@ -12,3 +12,5 @@ permalink: /projects/
 - **CyFinder:** Developed backend using Spring Boot, MySQL, and Hibernate; tested endpoints with Postman, secured passwords, managed REST API collaboration via GitHub.
 - **Cryptography:** Implemented Python-based Linear Feedback Shift Register (LFSR) cryptosystem with Feistel networks, S-Boxes, and key rotation.
 - **MIPS Processors:** Designed single-cycle and pipelined processors in VHDL with Questa Sim; implemented data paths, instruction sets, and control units.
+
+

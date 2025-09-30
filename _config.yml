@@ -4,3 +4,16 @@ url: "https://jrohde23.github.io"
 baseurl: ""
 theme: minima
 lang: "en"
+minima:
+  skin: dark
+  social_links:
+    - platform: linkedin
+      user_url: https://www.linkedin.com/in/justin-rohde-150703228/
+    - platform: github
+      user_url: https://github.com/jrohde23
+
+header_pages:
+  - index.md
+  - projects.md
+  - experience.md
+  - about.md
