@@ -10,33 +10,13 @@ _I’m Justin Rohde — cybersecurity engineering student, red team enthusiast, 
 
 ---
 
-## 📞 Contact
-
-- **Location:** Cary, IL
-- **Phone:** 224-548-3400
-- **Email:** [Jrohde23@iastate.edu](mailto:Jrohde23@iastate.edu)
-- **LinkedIn:** [@Justin Rohde](https://www.linkedin.com/in/justin-rohde-150703228/)
+**[Projects](#projects) | [Experience](#experience) | [Skills](#skills) | [Education](#education) | [Contact](#contact)**
 
 ---
 
-## 🛠️ Skills
+## Projects
 
-**Languages & Tools:**  
-Java, Python, Automation, Linux, PowerShell, Bash, Splunk, Active Directory, Autopsy, Firewalls, Wireshark, Cryptography (RSA, ECC, SHA-256), Nmap, Metasploit, GitHub, MySQL, Spring Boot, REST APIs, CI/CD, NIST 2.0, Microsoft Office
-
-**Soft Skills:**  
-Public Speaking, Leadership, Time Management, Problem Solving, Troubleshooting, Attention to Detail
-
----
-
-## 🚩 Certifications
-
-- CompTIA Security+ Certified
-
----
-
-## 🧑‍💻 Technical Projects & Activities
-
+- **CompTIA Security+ Certified**
 - **Forensic Investigation:** Built forensic lab with VMs, performed steganography, and produced a detailed investigation report.
 - **Iowa State Cyber Defense Competition:** Defended 8 servers in an 8-hour attack; managed AD (GPOs, LDAPS, Kerberos), traced IoCs, presented defense reports — earned 2nd place.
 - **CyFinder:** Developed backend using Spring Boot, MySQL, and Hibernate; tested endpoints with Postman, secured passwords, managed REST API collaboration via GitHub.
@@ -45,11 +25,11 @@ Public Speaking, Leadership, Time Management, Problem Solving, Troubleshooting, 
 
 ---
 
-## 💼 Professional Experience
+## Experience
 
 **Information Security Engineer Intern**  
 _CIBC US • Summer 2025_  
-- Automated compliance and risk workflows, saving ∼1,000 hours and $50,000 annually through AI and Python solutions.
+- Automated compliance and risk workflows, saving ~1,000 hours and $50,000 annually through AI and Python solutions.
 - Remediated Governance, Risk, and Compliance (GRC) deficiencies, ensuring compliance with NIST 2.0.
 - Built Python solution to automate NYDFS compliance, reducing manual workload by 150 hours and saving $7,500 annually.
 - Created AI agent to automate deficiency risk management, minimizing human error and accelerating issue resolution, saving $25,000 and 500 hours annually.
@@ -71,11 +51,30 @@ _Comtech Telecommunications Inc. • 2022–2023_
 
 ---
 
-## 🎓 Education
+## Skills
+
+**Languages & Tools:**  
+Java, Python, Automation, Linux, PowerShell, Bash, Splunk, Active Directory, Autopsy, Firewalls, Wireshark, Cryptography (RSA, ECC, SHA-256), Nmap, Metasploit, GitHub, MySQL, Spring Boot, REST APIs, CI/CD, NIST 2.0, Microsoft Office
+
+**Soft Skills:**  
+Public Speaking, Leadership, Time Management, Problem Solving, Troubleshooting, Attention to Detail
+
+---
+
+## Education
 
 **Iowa State University**  
 _2023–2026_  
 Bachelor’s degree in Cyber Security Engineering  
 - Member, Club Baseball Team
+
+---
+
+## Contact
+
+- **Location:** Cary, IL
+- **Phone:** 224-548-3400
+- **Email:** [Jrohde23@iastate.edu](mailto:Jrohde23@iastate.edu)
+- **LinkedIn:** [@Justin Rohde](https://www.linkedin.com/in/justin-rohde-150703228/)
 
 ---
