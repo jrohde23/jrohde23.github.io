@@ -13,5 +13,3 @@ _I design secure systems, build automation, and love taking ideas from sketch to
 - [Skills](#skills)
 - [About](#about)
 - [Contact](mailto:Jrohde23@iastate.edu)
-
-<!-- Add more markdown sections for your projects, experience, etc., like in my previous answer -->
