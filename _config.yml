@@ -1,1 +1,6 @@
+title: "Justin Rohde — Portfolio"
+description: "Portfolio of Justin Rohde — cybersecurity engineering student, red teaming enthusiast, builder of systems & tools."
+url: "https://jrohde23.github.io"
+baseurl: ""
 remote_theme: cotes2020/jekyll-theme-chirpy
+lang: "en"
