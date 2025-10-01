@@ -162,6 +162,116 @@ a { color: var(--accent); }
   line-height: 1.5;
 }
 
+// Experience timeline styling
+.experience-timeline {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.experience-card {
+  background: var(--card);
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  overflow: hidden;
+}
+
+.experience-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(79, 70, 229, 0.15);
+}
+
+.experience-card.current {
+  border-left: 4px solid var(--accent);
+  background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.05));
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.company-info h3 {
+  margin: 0 0 0.25rem 0;
+  color: var(--text);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.company-name {
+  color: var(--accent);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.duration {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.experience-content {
+  padding: 1.5rem;
+}
+
+.achievement {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 0.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  transition: background 0.2s ease;
+}
+
+.achievement:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.achievement i {
+  color: var(--accent);
+  font-size: 1.25rem;
+  margin-right: 1rem;
+  margin-top: 0.25rem;
+  min-width: 20px;
+}
+
+.achievement div {
+  flex: 1;
+}
+
+.achievement strong {
+  display: block;
+  color: var(--text);
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.achievement p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
 // Responsive adjustments
 @media (max-width: 768px) {
   .projects-grid {
@@ -171,6 +281,28 @@ a { color: var(--accent); }
   
   .project-image {
     height: 180px;
+  }
+  
+  .experience-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+  
+  .company-logo {
+    width: 50px;
+    height: 50px;
+    font-size: 1.25rem;
+  }
+  
+  .achievement {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .achievement i {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
   }
 }
 
