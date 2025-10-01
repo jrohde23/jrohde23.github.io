@@ -22,7 +22,7 @@ Iowa State University, Class of 2026
 ## Education
 
 **Iowa State University**  
-Bachelor of Science in Cyber Security Engineering  
+Bachelor in Cyber Security Engineering  
 *2023–2026*
 
 - **Relevant Coursework:** Network Security, Cryptography, Digital Forensics, Secure Software Development, Risk Management

@@ -147,4 +147,70 @@ I'm excited to continue my journey in cybersecurity, applying the knowledge and 
 
 ---
 
+## Supporting Documents & Papers
+
+### Academic Papers
+*[Attach your academic papers as PDFs below]*
+
+#### General Education Reflection Paper
+**[Paper Title]** - *[Course/Semester]*
+- **Description:** [Brief description of the paper's focus and content]
+- **Key Themes:** [Main topics covered in the paper]
+- **Impact on Development:** [How this paper contributed to your understanding]
+- **Document:** <a href="/assets/documents/reflections/general-education-reflection.pdf" class="document-link" target="_blank"><i class="fas fa-file-pdf"></i> View PDF</a>
+
+#### Cumulative Reflection Paper
+**[Paper Title]** - *[Course/Semester]*
+- **Description:** [Brief description of the paper's focus and content]
+- **Key Themes:** [Main topics covered in the paper]
+- **Impact on Development:** [How this paper contributed to your understanding]
+- **Document:** <a href="/assets/documents/reflections/cumulative-reflection.pdf" class="document-link" target="_blank"><i class="fas fa-file-pdf"></i> View PDF</a>
+
+#### Additional Reflection Papers
+**[Paper Title]** - *[Course/Semester]*
+- **Description:** [Brief description of the paper's focus and content]
+- **Key Themes:** [Main topics covered in the paper]
+- **Impact on Development:** [How this paper contributed to your understanding]
+- **Document:** <a href="/assets/documents/reflections/[paper-filename].pdf" class="document-link" target="_blank"><i class="fas fa-file-pdf"></i> View PDF</a>
+
+### Portfolio Supporting Documents
+
+#### Academic Work Samples
+- **Technical Reports:** [Links to technical reports and documentation]
+- **Project Presentations:** [Links to presentation slides and videos]
+- **Research Papers:** [Links to any research or analysis papers]
+- **Lab Reports:** [Links to laboratory work and analysis]
+
+#### Professional Development
+- **Internship Reports:** [Links to internship documentation and evaluations]
+- **Training Materials:** [Links to training content you've created]
+- **Professional Presentations:** [Links to presentations given to professional audiences]
+
+### Document Organization
+All supporting documents are organized in the following structure:
+```
+assets/documents/
+├── reflections/
+│   ├── general-education-reflection.pdf
+│   ├── cumulative-reflection.pdf
+│   └── [additional-reflection-papers].pdf
+├── projects/
+│   ├── senior-design/
+│   ├── forensic-investigation/
+│   ├── cyber-defense-competition/
+│   ├── cyfinder/
+│   ├── cryptography/
+│   └── mips-processor/
+├── internship/
+│   ├── cibc-internship-report.pdf
+│   ├── evaluations/
+│   └── presentations/
+└── academic/
+    ├── research-papers/
+    ├── lab-reports/
+    └── presentations/
+```
+
+---
+
 *This reflection represents my current understanding and will continue to evolve as I gain more experience in the field of cybersecurity engineering.*
