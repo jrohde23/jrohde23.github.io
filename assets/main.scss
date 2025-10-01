@@ -48,6 +48,7 @@ body {
 .btn-primary { background: var(--accent); color: white; }
 .btn-secondary { background: var(--accent-2); color: #06252a; }
 .btn-tertiary { background: transparent; border: 1px solid var(--muted); color: var(--text); }
+.btn-quaternary { background: linear-gradient(135deg, #8b5cf6, #a855f7); color: white; }
 
 .hero .meta, .hero .contact { color: var(--muted); margin-top: .5rem; }
 .hero .contact a { color: var(--text); }
