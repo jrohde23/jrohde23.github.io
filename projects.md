@@ -9,7 +9,11 @@ permalink: /projects/
 <div class="projects-grid">
   <div class="project-card">
     <div class="project-image">
-      <img src="/assets/images/security-plus.jpg" alt="CompTIA Security+ Certification" />
+      <div class="cert-placeholder">
+        <i class="fas fa-certificate"></i>
+        <span>Security+ Certified</span>
+        <a href="/assets/images/CompTIA Security+ ce certificate.pdf" target="_blank" class="view-cert">View Certificate</a>
+      </div>
     </div>
     <div class="project-content">
       <h3>CompTIA Security+ Certified</h3>
