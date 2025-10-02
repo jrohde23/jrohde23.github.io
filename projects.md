@@ -6,40 +6,66 @@ permalink: /projects/
 
 ## Senior Design Project
 
-<div class="project-image">
-  <img src="/assets/images/srdesign.jpg" alt="Senior Design Project" class="project-img">
+<div class="project-showcase">
+  <div class="project-content">
+    <h3>[Senior Design Project Title]</h3>
+    <div class="project-meta">
+      <span class="meta-item"><i class="fas fa-calendar"></i> [Fall/Spring 2025]</span>
+      <span class="meta-item"><i class="fas fa-users"></i> [Team Size]</span>
+      <span class="meta-item"><i class="fas fa-clock"></i> [Duration]</span>
+    </div>
+    
+    <div class="project-description">
+      <h4><i class="fas fa-info-circle"></i> Description</h4>
+      <p>[Detailed description of the senior design project, including the problem being solved, technical approach, and expected outcomes.]</p>
+    </div>
+    
+    <div class="project-role">
+      <h4><i class="fas fa-user-cog"></i> My Role</h4>
+      <p>[Specific responsibilities and contributions to the project, including leadership roles, technical implementations, and coordination efforts.]</p>
+    </div>
+    
+    <div class="skills-gained">
+      <h4><i class="fas fa-graduation-cap"></i> Skills & Knowledge Gained</h4>
+      <ul>
+        <li><strong>Technical Skills:</strong> [Specific technical skills developed]</li>
+        <li><strong>Project Management:</strong> [Leadership and coordination skills]</li>
+        <li><strong>Communication:</strong> [Presentation and documentation skills]</li>
+        <li><strong>Problem Solving:</strong> [Analytical and troubleshooting abilities]</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="project-image">
+    <img src="/assets/images/srdesign.jpg" alt="Senior Design Project" class="project-img">
+  </div>
 </div>
 
-### [Senior Design Project Title]
-**Semester:** [Fall/Spring 2025]  
-**Team Size:** [Number of team members]  
-**Duration:** [Project duration]
-
-#### Description
-[Detailed description of the senior design project, including the problem being solved, technical approach, and expected outcomes.]
-
-#### My Role
-[Specific responsibilities and contributions to the project, including leadership roles, technical implementations, and coordination efforts.]
-
-#### Skills & Knowledge Gained
-- **Technical Skills:** [Specific technical skills developed]
-- **Project Management:** [Leadership and coordination skills]
-- **Communication:** [Presentation and documentation skills]
-- **Problem Solving:** [Analytical and troubleshooting abilities]
-
-#### Resources Used
-- **Hardware:** [Specific hardware components and tools]
-- **Software:** [Development environments, frameworks, libraries]
-- **Methodologies:** [Project management approaches, design processes]
-
-#### Big Picture Contribution
-[Explanation of how this project contributes to the broader field of cybersecurity engineering, potential real-world applications, and impact on society or industry.]
-
-#### Supporting Documents
-- [Link to project report]
-- [Link to presentation slides]
-- [Link to code repository]
-- [Link to demonstration videos]
+<div class="project-details">
+  <div class="resources-used">
+    <h4><i class="fas fa-tools"></i> Resources Used</h4>
+    <ul>
+      <li><strong>Hardware:</strong> [Specific hardware components and tools]</li>
+      <li><strong>Software:</strong> [Development environments, frameworks, libraries]</li>
+      <li><strong>Methodologies:</strong> [Project management approaches, design processes]</li>
+    </ul>
+  </div>
+  
+  <div class="big-picture">
+    <h4><i class="fas fa-lightbulb"></i> Big Picture Contribution</h4>
+    <p>[Explanation of how this project contributes to the broader field of cybersecurity engineering, potential real-world applications, and impact on society or industry.]</p>
+  </div>
+  
+  <div class="supporting-docs">
+    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
+    <div class="doc-links">
+      <a href="#" class="doc-link"><i class="fas fa-file-pdf"></i> Project Report</a>
+      <a href="#" class="doc-link"><i class="fas fa-presentation"></i> Presentation Slides</a>
+      <a href="#" class="doc-link"><i class="fab fa-github"></i> Code Repository</a>
+      <a href="#" class="doc-link"><i class="fas fa-video"></i> Demonstration Videos</a>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -77,38 +103,65 @@ Built a comprehensive forensic investigation lab using virtual machines to simul
 
 ### Iowa State Cyber Defense Competition
 
-<div class="project-image">
-  <img src="/assets/images/cdc.jpg" alt="Cyber Defense Competition" class="project-img">
+<div class="project-showcase">
+  <div class="project-content">
+    <h3>Cyber Defense Competition</h3>
+    <div class="project-meta">
+      <span class="meta-item"><i class="fas fa-calendar"></i> [Competition Date]</span>
+      <span class="meta-item"><i class="fas fa-trophy"></i> 2nd Place</span>
+      <span class="meta-item"><i class="fas fa-gamepad"></i> Competitive Event</span>
+    </div>
+    
+    <div class="project-description">
+      <h4><i class="fas fa-info-circle"></i> Description</h4>
+      <p>Participated in an 8-hour cyber defense competition defending 8 servers against continuous attacks. Managed Active Directory infrastructure, implemented security policies, and responded to real-time threats while maintaining system availability.</p>
+    </div>
+    
+    <div class="project-role">
+      <h4><i class="fas fa-user-cog"></i> My Role</h4>
+      <ul>
+        <li><strong>Team Lead:</strong> Coordinated team strategy and response</li>
+        <li><strong>AD Administrator:</strong> Managed Group Policy Objects, LDAPS, Kerberos</li>
+        <li><strong>Incident Responder:</strong> Traced indicators of compromise and implemented countermeasures</li>
+        <li><strong>Presenter:</strong> Delivered defense reports to judges</li>
+      </ul>
+    </div>
+    
+    <div class="skills-gained">
+      <h4><i class="fas fa-graduation-cap"></i> Skills & Knowledge Gained</h4>
+      <ul>
+        <li><strong>Active Directory:</strong> GPO management, LDAPS configuration, Kerberos troubleshooting</li>
+        <li><strong>Incident Response:</strong> IOC analysis, threat hunting, containment strategies</li>
+        <li><strong>Team Leadership:</strong> Crisis management, communication under pressure</li>
+        <li><strong>Technical Writing:</strong> Incident reports, post-mortem analysis</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="project-image">
+    <img src="/assets/images/cdc.jpg" alt="Cyber Defense Competition" class="project-img">
+  </div>
 </div>
 
-**Date:** [Competition Date]  
-**Type:** Competitive Event  
-**Result:** 2nd Place
-
-#### Description
-Participated in an 8-hour cyber defense competition defending 8 servers against continuous attacks. Managed Active Directory infrastructure, implemented security policies, and responded to real-time threats while maintaining system availability.
-
-#### My Role
-- **Team Lead:** Coordinated team strategy and response
-- **AD Administrator:** Managed Group Policy Objects, LDAPS, Kerberos
-- **Incident Responder:** Traced indicators of compromise and implemented countermeasures
-- **Presenter:** Delivered defense reports to judges
-
-#### Skills & Knowledge Gained
-- **Active Directory:** GPO management, LDAPS configuration, Kerberos troubleshooting
-- **Incident Response:** IOC analysis, threat hunting, containment strategies
-- **Team Leadership:** Crisis management, communication under pressure
-- **Technical Writing:** Incident reports, post-mortem analysis
-
-#### Resources Used
-- **Infrastructure:** Windows Server, Active Directory, network equipment
-- **Security Tools:** SIEM, endpoint protection, network monitoring
-- **Documentation:** Incident response playbooks, security policies
-
-#### Supporting Documents
-- [Link to competition report]
-- [Link to defense presentation]
-- [Link to team strategy documentation]
+<div class="project-details">
+  <div class="resources-used">
+    <h4><i class="fas fa-tools"></i> Resources Used</h4>
+    <ul>
+      <li><strong>Infrastructure:</strong> Windows Server, Active Directory, network equipment</li>
+      <li><strong>Security Tools:</strong> SIEM, endpoint protection, network monitoring</li>
+      <li><strong>Documentation:</strong> Incident response playbooks, security policies</li>
+    </ul>
+  </div>
+  
+  <div class="supporting-docs">
+    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
+    <div class="doc-links">
+      <a href="#" class="doc-link"><i class="fas fa-file-pdf"></i> Competition Report</a>
+      <a href="#" class="doc-link"><i class="fas fa-presentation"></i> Defense Presentation</a>
+      <a href="#" class="doc-link"><i class="fas fa-clipboard-list"></i> Team Strategy Documentation</a>
+    </div>
+  </div>
+</div>
 
 ---
 
@@ -178,36 +231,64 @@ Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) c
 
 ### MIPS Processor Design
 
-<div class="project-image">
-  <img src="/assets/images/mips.jpg" alt="MIPS Processor Design" class="project-img">
+<div class="project-showcase">
+  <div class="project-content">
+    <h3>MIPS Processor Design</h3>
+    <div class="project-meta">
+      <span class="meta-item"><i class="fas fa-calendar"></i> [Semester/Year]</span>
+      <span class="meta-item"><i class="fas fa-microchip"></i> Hardware Design</span>
+      <span class="meta-item"><i class="fas fa-code"></i> VHDL</span>
+    </div>
+    
+    <div class="project-description">
+      <h4><i class="fas fa-info-circle"></i> Description</h4>
+      <p>Designed and implemented both single-cycle and pipelined MIPS processors using VHDL. The project involved creating data paths, instruction sets, and control units, with comprehensive testing using Questa Sim simulation environment.</p>
+    </div>
+    
+    <div class="project-role">
+      <h4><i class="fas fa-user-cog"></i> My Role</h4>
+      <ul>
+        <li><strong>Hardware Designer:</strong> Created VHDL modules for processor components</li>
+        <li><strong>System Architect:</strong> Designed data paths and control logic</li>
+        <li><strong>Tester:</strong> Developed testbenches and validation procedures</li>
+        <li><strong>Documenter:</strong> Created technical specifications and user guides</li>
+      </ul>
+    </div>
+    
+    <div class="skills-gained">
+      <h4><i class="fas fa-graduation-cap"></i> Skills & Knowledge Gained</h4>
+      <ul>
+        <li><strong>VHDL Programming:</strong> Hardware description language, synthesis</li>
+        <li><strong>Processor Design:</strong> Instruction set architecture, pipeline design</li>
+        <li><strong>Simulation:</strong> Questa Sim, testbench development</li>
+        <li><strong>Digital Logic:</strong> Combinational and sequential circuit design</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="project-image">
+    <img src="/assets/images/mips.jpg" alt="MIPS Processor Design" class="project-img">
+  </div>
 </div>
 
-**Date:** [Semester/Year]  
-**Type:** Hardware Design Project
-
-#### Description
-Designed and implemented both single-cycle and pipelined MIPS processors using VHDL. The project involved creating data paths, instruction sets, and control units, with comprehensive testing using Questa Sim simulation environment.
-
-#### My Role
-- **Hardware Designer:** Created VHDL modules for processor components
-- **System Architect:** Designed data paths and control logic
-- **Tester:** Developed testbenches and validation procedures
-- **Documenter:** Created technical specifications and user guides
-
-#### Skills & Knowledge Gained
-- **VHDL Programming:** Hardware description language, synthesis
-- **Processor Design:** Instruction set architecture, pipeline design
-- **Simulation:** Questa Sim, testbench development
-- **Digital Logic:** Combinational and sequential circuit design
-
-#### Resources Used
-- **Hardware Description:** VHDL, synthesis tools
-- **Simulation:** Questa Sim, ModelSim
-- **Documentation:** Technical writing tools, diagram software
-
-#### Supporting Documents
-- [Link to VHDL source code]
-- [Link to simulation results]
-- [Link to design documentation]
+<div class="project-details">
+  <div class="resources-used">
+    <h4><i class="fas fa-tools"></i> Resources Used</h4>
+    <ul>
+      <li><strong>Hardware Description:</strong> VHDL, synthesis tools</li>
+      <li><strong>Simulation:</strong> Questa Sim, ModelSim</li>
+      <li><strong>Documentation:</strong> Technical writing tools, diagram software</li>
+    </ul>
+  </div>
+  
+  <div class="supporting-docs">
+    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
+    <div class="doc-links">
+      <a href="#" class="doc-link"><i class="fab fa-github"></i> VHDL Source Code</a>
+      <a href="#" class="doc-link"><i class="fas fa-chart-line"></i> Simulation Results</a>
+      <a href="#" class="doc-link"><i class="fas fa-file-alt"></i> Design Documentation</a>
+    </div>
+  </div>
+</div>
 
 
