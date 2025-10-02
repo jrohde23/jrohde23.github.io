@@ -6,6 +6,7 @@ description: Portfolio of Justin Rohde — cybersecurity engineering student, re
 ---
 
 <div class="hero">
+  <img src="/assets/images/HEADSHOT.JPG" alt="Justin Rohde" class="profile-photo">
   <h1>Welcome to My Portfolio</h1>
   <p class="lead">I design secure systems, automate risk workflows, and turn ideas into shipped tools.</p>
   <div class="cta-row">
