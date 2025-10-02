@@ -72,23 +72,4 @@ permalink: /experience/
     </div>
   </div>
 
-  <!-- 2022 -->
-  <div class="experience-bubble" data-year="2022">
-    <div class="bubble-content">
-      <div class="bubble-header">
-        <div class="bubble-icon"><i class="fas fa-laptop"></i></div>
-        <div class="bubble-title">
-          <h3>IT Support Specialist</h3>
-          <span class="company">Local Tech Solutions</span>
-          <span class="duration">Summer 2022</span>
-        </div>
-      </div>
-      <div class="bubble-body">
-        <div class="achievement-bubble"><i class="fas fa-tools"></i> Resolved 200+ technical issues</div>
-        <div class="achievement-bubble"><i class="fas fa-shield-alt"></i> Implemented security best practices</div>
-        <div class="achievement-bubble"><i class="fas fa-users"></i> Trained 15+ employees on IT systems</div>
-        <div class="achievement-bubble"><i class="fas fa-chart-line"></i> Reduced support tickets by 35%</div>
-      </div>
-    </div>
-  </div>
 </div>

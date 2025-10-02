@@ -399,7 +399,7 @@ a { color: var(--accent); }
 
 .bubble-timeline {
   position: relative;
-  max-width: 1400px;
+  max-width: 1800px;
   margin: 0 auto;
   padding: 3rem 2rem;
 }
@@ -436,13 +436,13 @@ a { color: var(--accent); }
 .bubble-content {
   background: var(--card);
   border-radius: 2rem;
-  padding: 2.5rem;
+  padding: 3rem;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
   position: relative;
-  width: 48%;
-  margin: 0 1%;
+  width: 50%;
+  margin: 0 0%;
 }
 
 .experience-bubble.current .bubble-content {
