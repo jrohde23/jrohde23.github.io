@@ -6,6 +6,10 @@ permalink: /projects/
 
 ## Senior Design Project
 
+<div class="project-image">
+  <img src="/assets/images/srdesign.jpg" alt="Senior Design Project" class="project-img">
+</div>
+
 ### [Senior Design Project Title]
 **Semester:** [Fall/Spring 2025]  
 **Team Size:** [Number of team members]  
@@ -72,6 +76,11 @@ Built a comprehensive forensic investigation lab using virtual machines to simul
 ---
 
 ### Iowa State Cyber Defense Competition
+
+<div class="project-image">
+  <img src="/assets/images/cdc.jpg" alt="Cyber Defense Competition" class="project-img">
+</div>
+
 **Date:** [Competition Date]  
 **Type:** Competitive Event  
 **Result:** 2nd Place
@@ -168,6 +177,11 @@ Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) c
 ---
 
 ### MIPS Processor Design
+
+<div class="project-image">
+  <img src="/assets/images/mips.jpg" alt="MIPS Processor Design" class="project-img">
+</div>
+
 **Date:** [Semester/Year]  
 **Type:** Hardware Design Project
 
