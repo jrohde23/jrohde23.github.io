@@ -3,14 +3,15 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
+<!-- Updated project layout -->
 
 ## Senior Design Project
 
 <div class="project-showcase">
   <div class="project-content">
-    <h3>[Senior Design Project Title]</h3>
+    <h3>[Secure Wireless Aircraft Data Load]</h3>
     <div class="project-meta">
-      <span class="meta-item"><i class="fas fa-calendar"></i> [Fall/Spring 2025]</span>
+      <span class="meta-item"><i class="fas fa-calendar"></i> [Fall/Spring 2025-26]</span>
       <span class="meta-item"><i class="fas fa-users"></i> [Team Size]</span>
       <span class="meta-item"><i class="fas fa-clock"></i> [Duration]</span>
     </div>
