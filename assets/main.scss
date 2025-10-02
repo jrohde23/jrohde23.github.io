@@ -369,35 +369,39 @@ a { color: var(--accent); }
   line-height: 1.5;
 }
 
-// Bubble Timeline Design
+// Enhanced Experience Timeline Design
 .experience-hero {
   text-align: center;
-  padding: 3rem 0 4rem;
-  background: linear-gradient(135deg, var(--bg), rgba(79, 70, 229, 0.1));
-  margin-bottom: 2rem;
-  border-radius: 0 0 2rem 2rem;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.1));
+  margin-bottom: 3rem;
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .experience-hero h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   margin: 0 0 1rem 0;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  font-weight: 700;
 }
 
 .experience-hero p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   color: var(--muted);
   margin: 0;
+  font-weight: 500;
 }
 
 .bubble-timeline {
   position: relative;
-  max-width: 1000px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem 0;
+  padding: 3rem 2rem;
 }
 
 .timeline-line {
@@ -405,35 +409,20 @@ a { color: var(--accent); }
   left: 50%;
   top: 0;
   bottom: 0;
-  width: 3px;
+  width: 4px;
   background: linear-gradient(to bottom, var(--accent), var(--accent-2));
   transform: translateX(-50%);
   border-radius: 2px;
+  box-shadow: 0 0 20px rgba(79, 70, 229, 0.3);
 }
 
 .experience-bubble {
   position: relative;
-  margin: 3rem 0;
+  margin: 4rem 0;
   display: flex;
   align-items: center;
-  opacity: 0;
-  animation: bubbleSlideIn 0.8s ease forwards;
-}
-
-.experience-bubble:nth-child(2) { animation-delay: 0.2s; }
-.experience-bubble:nth-child(3) { animation-delay: 0.4s; }
-.experience-bubble:nth-child(4) { animation-delay: 0.6s; }
-.experience-bubble:nth-child(5) { animation-delay: 0.8s; }
-
-@keyframes bubbleSlideIn {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  opacity: 1;
+  animation: none;
 }
 
 .experience-bubble:nth-child(odd) {
@@ -447,24 +436,24 @@ a { color: var(--accent); }
 .bubble-content {
   background: var(--card);
   border-radius: 2rem;
-  padding: 2rem;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  padding: 2.5rem;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
   position: relative;
-  width: 45%;
-  margin: 0 2.5%;
+  width: 48%;
+  margin: 0 1%;
 }
 
 .experience-bubble.current .bubble-content {
-  background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.1));
+  background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.15));
   border: 2px solid var(--accent);
-  box-shadow: 0 15px 40px rgba(79, 70, 229, 0.2);
+  box-shadow: 0 20px 50px rgba(79, 70, 229, 0.25);
 }
 
 .bubble-content:hover {
-  transform: translateY(-5px) scale(1.02);
-  box-shadow: 0 20px 50px rgba(79, 70, 229, 0.25);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 60px rgba(79, 70, 229, 0.3);
 }
 
 .bubble-content::before {
@@ -473,17 +462,17 @@ a { color: var(--accent); }
   top: 50%;
   width: 0;
   height: 0;
-  border: 15px solid transparent;
+  border: 20px solid transparent;
 }
 
 .experience-bubble:nth-child(odd) .bubble-content::before {
-  right: -30px;
+  right: -40px;
   border-left-color: var(--card);
   transform: translateY(-50%);
 }
 
 .experience-bubble:nth-child(even) .bubble-content::before {
-  left: -30px;
+  left: -40px;
   border-right-color: var(--card);
   transform: translateY(-50%);
 }
@@ -496,76 +485,80 @@ a { color: var(--accent); }
 .bubble-header {
   display: flex;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .bubble-icon {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  font-size: 2rem;
-  margin-right: 1.5rem;
-  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.3);
+  font-size: 2.2rem;
+  margin-right: 2rem;
+  box-shadow: 0 10px 25px rgba(79, 70, 229, 0.4);
   transition: transform 0.3s ease;
 }
 
 .bubble-content:hover .bubble-icon {
-  transform: rotate(10deg) scale(1.1);
+  transform: rotate(15deg) scale(1.1);
 }
 
 .bubble-title h3 {
-  margin: 0 0 0.5rem 0;
+  margin: 0 0 0.75rem 0;
   color: var(--text);
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 700;
+  line-height: 1.3;
 }
 
 .company {
   display: block;
   color: var(--accent);
   font-weight: 600;
-  font-size: 1.1rem;
-  margin-bottom: 0.25rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
 }
 
 .duration {
   display: block;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .bubble-body {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .achievement-bubble {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 1.5rem;
-  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  transition: all 0.2s ease;
-  font-size: 0.9rem;
+  gap: 0.75rem;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .achievement-bubble:hover {
-  background: rgba(79, 70, 229, 0.1);
+  background: rgba(79, 70, 229, 0.15);
   border-color: var(--accent);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.2);
 }
 
 .achievement-bubble i {
   color: var(--accent);
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .achievement-bubble span {
@@ -573,31 +566,37 @@ a { color: var(--accent); }
   font-weight: 500;
 }
 
-// Timeline dot
+// Enhanced timeline dots
 .experience-bubble::after {
-  content: '';
+  content: attr(data-year);
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 20px;
-  height: 20px;
-  background: var(--accent);
-  border-radius: 50%;
   transform: translate(-50%, -50%);
+  background: var(--accent);
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
   border: 4px solid var(--bg);
-  box-shadow: 0 0 0 3px var(--accent);
-  z-index: 2;
+  box-shadow: 0 0 0 4px var(--accent), 0 10px 25px rgba(79, 70, 229, 0.3);
+  z-index: 3;
 }
 
 .experience-bubble.current::after {
   background: var(--accent-2);
-  box-shadow: 0 0 0 3px var(--accent-2), 0 0 20px rgba(6, 182, 212, 0.5);
+  box-shadow: 0 0 0 4px var(--accent-2), 0 0 30px rgba(6, 182, 212, 0.6);
   animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
   0%, 100% { transform: translate(-50%, -50%) scale(1); }
-  50% { transform: translate(-50%, -50%) scale(1.2); }
+  50% { transform: translate(-50%, -50%) scale(1.1); }
 }
 
 // Responsive adjustments
@@ -636,29 +635,38 @@ a { color: var(--accent); }
     padding: 1.5rem;
   }
   
+  .experience-hero {
+    padding: 2rem 1rem;
+  }
+  
   .experience-hero h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  .experience-hero p {
+    font-size: 1.1rem;
   }
   
   .bubble-timeline {
-    padding: 1rem 0;
+    padding: 2rem 1rem;
+    max-width: 100%;
   }
   
   .timeline-line {
-    left: 20px;
+    left: 30px;
   }
   
   .experience-bubble {
     flex-direction: row !important;
-    margin: 2rem 0;
-    padding-left: 3rem;
+    margin: 3rem 0;
+    padding-left: 4rem;
   }
   
   .bubble-content {
     width: 100%;
     margin: 0;
     border-radius: 1.5rem;
-    padding: 1.5rem;
+    padding: 2rem;
   }
   
   .bubble-content::before {
@@ -668,25 +676,31 @@ a { color: var(--accent); }
   .bubble-header {
     flex-direction: column;
     text-align: center;
-    gap: 1rem;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
   }
   
   .bubble-icon {
-    width: 60px;
-    height: 60px;
-    font-size: 1.5rem;
+    width: 70px;
+    height: 70px;
+    font-size: 1.8rem;
     margin-right: 0;
   }
   
+  .bubble-title h3 {
+    font-size: 1.3rem;
+  }
+  
   .experience-bubble::after {
-    left: 20px;
-    width: 16px;
-    height: 16px;
+    left: 30px;
+    width: 40px;
+    height: 40px;
+    font-size: 0.8rem;
   }
   
   .achievement-bubble {
-    font-size: 0.8rem;
-    padding: 0.5rem 0.75rem;
+    font-size: 0.9rem;
+    padding: 0.75rem 1rem;
   }
 }
 
