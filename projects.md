@@ -6,8 +6,10 @@ permalink: /projects/
 
 <div class="projects-hero">
   <h1>My Projects</h1>
+  <p>Building secure systems, automating workflows, and turning ideas into reality</p>
 </div>
 
+## Senior Design Project
 
 <div class="project-showcase">
   <div class="project-content">
@@ -49,13 +51,15 @@ permalink: /projects/
     <h4><i class="fas fa-tools"></i> Resources Used</h4>
     <ul>
       <li><strong>Hardware:</strong> Raspberry Pi 5</li>
-      <li><strong>Software:</strong> TBD </li>
-      <li><strong>Methodologies:</strong> Agile Workflow </li>
+      <li><strong>Software:</strong> TBD</li>
+      <li><strong>Methodologies:</strong> Agile Workflow</li>
     </ul>
   </div>
-  
-  
+</div>
 
+---
+
+## Iowa State Cyber Defense Competition
 
 <div class="project-showcase">
   <div class="project-content">
@@ -106,9 +110,11 @@ permalink: /projects/
       <li><strong>Documentation:</strong> Incident response playbooks, security policies</li>
     </ul>
   </div>
-  
+</div>
+
 ---
 
+## Forensic Investigation Lab
 
 <div class="project-showcase">
   <div class="project-content">
@@ -162,9 +168,11 @@ permalink: /projects/
       <li><strong>Virtualization:</strong> Parrot OS for Investigation Box; Ubuntu for Malicious Box</li>
     </ul>
   </div>
-  
+</div>
+
 ---
 
+## CyFinder Application
 
 <div class="project-showcase">
   <div class="project-content">
@@ -220,9 +228,11 @@ permalink: /projects/
       <li><strong>Development:</strong> IntelliJ IDEA, Maven, Git</li>
     </ul>
   </div>
-  
+</div>
+
 ---
 
+## Cryptography Implementation
 
 <div class="project-showcase">
   <div class="project-content">
@@ -290,19 +300,22 @@ permalink: /projects/
 
 ---
 
+## MIPS Processor Design
 
 <div class="project-showcase">
   <div class="project-content">
     <h3>MIPS Processor Design</h3>
     <div class="project-meta">
-      <span class="meta-item"><i class="fas fa-calendar"></i> Fall 2024</span>
+      <span class="meta-item"><i class="fas fa-calendar"></i> Fall 2023</span>
       <span class="meta-item"><i class="fas fa-microchip"></i> Hardware Design</span>
       <span class="meta-item"><i class="fas fa-code"></i> VHDL</span>
     </div>
+    
     <div class="project-description">
       <h4><i class="fas fa-info-circle"></i> Description</h4>
       <p>Designed and implemented both single-cycle and pipelined MIPS processors using VHDL. The project involved creating data paths, instruction sets, and control units, with comprehensive testing using Questa Sim simulation environment.</p>
     </div>
+    
     <div class="project-role">
       <h4><i class="fas fa-user-cog"></i> My Role</h4>
       <ul>
@@ -312,6 +325,7 @@ permalink: /projects/
         <li><strong>Documenter:</strong> Created technical specifications and user guides</li>
       </ul>
     </div>
+    
     <div class="skills-gained">
       <h4><i class="fas fa-graduation-cap"></i> Skills & Knowledge Gained</h4>
       <ul>
@@ -322,10 +336,12 @@ permalink: /projects/
       </ul>
     </div>
   </div>
+  
   <div class="project-image">
     <img src="/assets/images/mips.jpg" alt="MIPS Processor Design" class="project-img">
   </div>
 </div>
+
 <div class="project-details">
   <div class="resources-used">
     <h4><i class="fas fa-tools"></i> Resources Used</h4>
@@ -335,4 +351,4 @@ permalink: /projects/
       <li><strong>Documentation:</strong> Technical writing tools, diagram software</li>
     </ul>
   </div>
-  
+</div>
