@@ -4,6 +4,12 @@ url: "https://jrohde23.github.io"
 baseurl: ""
 theme: minima
 lang: "en"
+
+# Include custom CSS
+sass:
+  style: compressed
+  load_paths:
+    - assets
 minima:
   skin: dark
   social_links:

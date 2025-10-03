@@ -26,14 +26,27 @@ body {
 
 
 .experience-page .page-content {
-  max-width: 95%;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  max-width: 98%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Override any theme defaults for wider pages */
+.page-content {
+  max-width: 98% !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 .hero {
   text-align: center;
-  padding: 6rem 1rem 3rem;
+  padding: 4rem 2rem 4rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.05));
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
 .profile-photo {
@@ -52,21 +65,47 @@ body {
   box-shadow: 0 12px 40px rgba(79, 70, 229, 0.4);
 }
 
-.hero .lead {
-  font-size: 1.25rem;
-  color: var(--muted);
-  max-width: 900px;
-  margin: 0 auto 2rem;
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 2rem 0 1.5rem 0;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
-.hero .cta-row { display: flex; gap: .75rem; justify-content: center; flex-wrap: wrap; margin-bottom: 1rem; }
+.hero .lead {
+  font-size: 1.4rem;
+  color: var(--muted);
+  max-width: 800px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.hero .cta-row { 
+  display: flex; 
+  gap: 1rem; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  margin-bottom: 2rem; 
+}
 
 .btn {
   display: inline-block;
-  padding: .7rem 1.1rem;
-  border-radius: .6rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
   text-decoration: none;
   font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
 .btn-primary { background: var(--accent); color: white; }
@@ -74,8 +113,38 @@ body {
 .btn-tertiary { background: transparent; border: 1px solid var(--muted); color: var(--text); }
 .btn-quaternary { background: linear-gradient(135deg, #8b5cf6, #a855f7); color: white; }
 
-.hero .meta, .hero .contact { color: var(--muted); margin-top: .5rem; }
-.hero .contact a { color: var(--text); }
+.hero .meta { 
+  color: var(--muted); 
+  margin: 2rem 0 1.5rem 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.hero .meta span {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.5rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.hero .contact { 
+  color: var(--muted); 
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.hero .contact a { 
+  color: var(--text); 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.hero .contact a:hover {
+  color: var(--accent);
+}
 
 .post, .page, .home .post-list > li {
   background: var(--card);
@@ -702,6 +771,29 @@ a { color: var(--accent); }
   .achievement-bubble {
     font-size: 0.9rem;
     padding: 0.75rem 1rem;
+  }
+  
+  .hero {
+    padding: 2rem 1rem;
+    margin: 1rem;
+  }
+  
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+  
+  .hero .lead {
+    font-size: 1.2rem;
+  }
+  
+  .btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+  
+  .profile-photo {
+    width: 150px;
+    height: 150px;
   }
 }
 
