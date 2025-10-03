@@ -146,6 +146,35 @@ body {
   color: var(--accent);
 }
 
+// Projects page hero styling
+.projects-hero {
+  text-align: center;
+  padding: 4rem 2rem 3rem;
+  max-width: 1000px;
+  margin: 0 auto 3rem;
+  background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.05));
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.projects-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.projects-hero p {
+  font-size: 1.3rem;
+  color: var(--muted);
+  margin: 0;
+  font-weight: 400;
+}
+
 .post, .page, .home .post-list > li {
   background: var(--card);
   border-radius: 1rem;

@@ -3,36 +3,40 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-<!-- Updated project layout -->
+
+<div class="projects-hero">
+  <h1>My Projects</h1>
+  <p>Building secure systems, automating workflows, and turning ideas into reality</p>
+</div>
 
 ## Senior Design Project
 
 <div class="project-showcase">
   <div class="project-content">
-    <h3>[Secure Wireless Aircraft Data Load]</h3>
+    <h3>Secure Wireless Aircraft Data Load</h3>
     <div class="project-meta">
-      <span class="meta-item"><i class="fas fa-calendar"></i> [Fall/Spring 2025-26]</span>
-      <span class="meta-item"><i class="fas fa-users"></i> [Team Size]</span>
-      <span class="meta-item"><i class="fas fa-clock"></i> [Duration]</span>
+      <span class="meta-item"><i class="fas fa-calendar"></i> Fall/Spring 2025-26</span>
+      <span class="meta-item"><i class="fas fa-users"></i> 4 Team Members</span>
+      <span class="meta-item"><i class="fas fa-clock"></i> 8 Months</span>
     </div>
     
     <div class="project-description">
       <h4><i class="fas fa-info-circle"></i> Description</h4>
-      <p>[Detailed description of the senior design project, including the problem being solved, technical approach, and expected outcomes.]</p>
+      <p>Developing a secure wireless data loading system for aircraft that ensures data integrity and prevents unauthorized access. The system implements end-to-end encryption and secure authentication protocols to protect critical flight data during wireless transmission.</p>
     </div>
     
     <div class="project-role">
       <h4><i class="fas fa-user-cog"></i> My Role</h4>
-      <p>[Specific responsibilities and contributions to the project, including leadership roles, technical implementations, and coordination efforts.]</p>
+      <p>Leading the security architecture design and implementing cryptographic protocols. Coordinating with team members on hardware integration and conducting security vulnerability assessments throughout the development lifecycle.</p>
     </div>
     
     <div class="skills-gained">
       <h4><i class="fas fa-graduation-cap"></i> Skills & Knowledge Gained</h4>
       <ul>
-        <li><strong>Technical Skills:</strong> [Specific technical skills developed]</li>
-        <li><strong>Project Management:</strong> [Leadership and coordination skills]</li>
-        <li><strong>Communication:</strong> [Presentation and documentation skills]</li>
-        <li><strong>Problem Solving:</strong> [Analytical and troubleshooting abilities]</li>
+        <li><strong>Cryptography:</strong> AES encryption, digital signatures, key management</li>
+        <li><strong>Embedded Security:</strong> Secure boot, hardware security modules</li>
+        <li><strong>Project Leadership:</strong> Team coordination and milestone management</li>
+        <li><strong>Risk Assessment:</strong> Security threat modeling and vulnerability analysis</li>
       </ul>
     </div>
   </div>
@@ -110,23 +114,23 @@ Built a comprehensive forensic investigation lab using virtual machines to simul
   <div class="project-content">
     <h3>Cyber Defense Competition</h3>
     <div class="project-meta">
-      <span class="meta-item"><i class="fas fa-calendar"></i> [Competition Date]</span>
+      <span class="meta-item"><i class="fas fa-calendar"></i> March 2024</span>
       <span class="meta-item"><i class="fas fa-trophy"></i> 2nd Place</span>
-      <span class="meta-item"><i class="fas fa-gamepad"></i> Competitive Event</span>
+      <span class="meta-item"><i class="fas fa-gamepad"></i> 8-Hour Competition</span>
     </div>
     
     <div class="project-description">
       <h4><i class="fas fa-info-circle"></i> Description</h4>
-      <p>Participated in an 8-hour cyber defense competition defending 8 servers against continuous attacks. Managed Active Directory infrastructure, implemented security policies, and responded to real-time threats while maintaining system availability.</p>
+      <p>Led a team of 4 cybersecurity students in defending 8 servers against continuous red team attacks. Successfully maintained 95% system uptime while implementing real-time security measures and incident response protocols.</p>
     </div>
     
     <div class="project-role">
       <h4><i class="fas fa-user-cog"></i> My Role</h4>
       <ul>
-        <li><strong>Team Lead:</strong> Coordinated team strategy and response</li>
-        <li><strong>AD Administrator:</strong> Managed Group Policy Objects, LDAPS, Kerberos</li>
-        <li><strong>Incident Responder:</strong> Traced indicators of compromise and implemented countermeasures</li>
-        <li><strong>Presenter:</strong> Delivered defense reports to judges</li>
+        <li><strong>Team Lead:</strong> Coordinated defense strategy and resource allocation</li>
+        <li><strong>AD Administrator:</strong> Managed Group Policy Objects and LDAPS configuration</li>
+        <li><strong>Incident Responder:</strong> Identified and contained 15+ security incidents</li>
+        <li><strong>Presenter:</strong> Delivered comprehensive defense reports to judges</li>
       </ul>
     </div>
     
@@ -238,7 +242,7 @@ Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) c
   <div class="project-content">
     <h3>MIPS Processor Design</h3>
     <div class="project-meta">
-      <span class="meta-item"><i class="fas fa-calendar"></i> [Fall/2024]</span>
+      <span class="meta-item"><i class="fas fa-calendar"></i> Fall 2023</span>
       <span class="meta-item"><i class="fas fa-microchip"></i> Hardware Design</span>
       <span class="meta-item"><i class="fas fa-code"></i> VHDL</span>
     </div>
