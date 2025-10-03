@@ -73,27 +73,23 @@ permalink: /projects/
 ## Additional Projects
 
 ### Forensic Investigation Lab
-**Date:** [Semester/Year]  
+**Date:** [Spring/2025]  
 **Type:** Academic Project
 
 #### Description
 Built a comprehensive forensic investigation lab using virtual machines to simulate real-world cybercrime scenarios. The project involved setting up isolated network environments, performing digital forensics on compromised systems, and conducting steganography analysis to uncover hidden information.
 
-#### My Role
-- **Lab Architect:** Designed and implemented the virtual lab environment
-- **Lead Investigator:** Conducted forensic analysis and evidence collection
-- **Report Author:** Compiled detailed investigation reports with findings and recommendations
 
 #### Skills & Knowledge Gained
 - **Digital Forensics:** Autopsy, file system analysis, memory forensics
-- **Network Security:** Traffic analysis, intrusion detection
+- **Network Security:** Wireshark traffic analysis, intrusion detection
 - **Steganography:** Image and file hiding techniques
 - **Report Writing:** Technical documentation and evidence presentation
 
 #### Resources Used
 - **Hardware:** High-performance workstations, external storage
 - **Software:** VMware, Autopsy, Wireshark, FTK Imager
-- **Virtualization:** Multiple VM environments for testing
+- **Virtualization:** Parrot OS for Investigation Box; Ubuntu for Malicious Box
 
 #### Supporting Documents
 - [Link to forensic report]
@@ -108,23 +104,23 @@ Built a comprehensive forensic investigation lab using virtual machines to simul
   <div class="project-content">
     <h3>Cyber Defense Competition</h3>
     <div class="project-meta">
-      <span class="meta-item"><i class="fas fa-calendar"></i> [Competition Date]</span>
+      <span class="meta-item"><i class="fas fa-calendar"></i> [Spring/2025]</span>
       <span class="meta-item"><i class="fas fa-trophy"></i> 2nd Place</span>
       <span class="meta-item"><i class="fas fa-gamepad"></i> Competitive Event</span>
     </div>
     
     <div class="project-description">
       <h4><i class="fas fa-info-circle"></i> Description</h4>
-      <p>Participated in an 8-hour cyber defense competition defending 8 servers against continuous attacks. Managed Active Directory infrastructure, implemented security policies, and responded to real-time threats while maintaining system availability.</p>
+      <p>Participated in an 8-hour cyber defense competition defending 8 servers against continuous attacks. Managed Active Directory infrastructure, implemented security policies, and responded to real-time threats while maintaining system availability. We also wrote intrusion reports as well as performed CTF style anomaly puzzles.</p>
     </div>
     
     <div class="project-role">
       <h4><i class="fas fa-user-cog"></i> My Role</h4>
       <ul>
-        <li><strong>Team Lead:</strong> Coordinated team strategy and response</li>
+        <li><strong>Firewalls:</strong> Implemented UFW firewalls and Windows Firewalls</li>
         <li><strong>AD Administrator:</strong> Managed Group Policy Objects, LDAPS, Kerberos</li>
         <li><strong>Incident Responder:</strong> Traced indicators of compromise and implemented countermeasures</li>
-        <li><strong>Presenter:</strong> Delivered defense reports to judges</li>
+        <li><strong>Documentation:</strong> Delivered defense reports to judges</li>
       </ul>
     </div>
     
@@ -149,29 +145,19 @@ Built a comprehensive forensic investigation lab using virtual machines to simul
     <h4><i class="fas fa-tools"></i> Resources Used</h4>
     <ul>
       <li><strong>Infrastructure:</strong> Windows Server, Active Directory, network equipment</li>
-      <li><strong>Security Tools:</strong> SIEM, endpoint protection, network monitoring</li>
+      <li><strong>Security Tools:</strong> Wazuh SIEM, WinPEAS, LinPEAS</li>
       <li><strong>Documentation:</strong> Incident response playbooks, security policies</li>
     </ul>
   </div>
   
-  <div class="supporting-docs">
-    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
-    <div class="doc-links">
-      <a href="#" class="doc-link"><i class="fas fa-file-pdf"></i> Competition Report</a>
-      <a href="#" class="doc-link"><i class="fas fa-presentation"></i> Defense Presentation</a>
-      <a href="#" class="doc-link"><i class="fas fa-clipboard-list"></i> Team Strategy Documentation</a>
-    </div>
-  </div>
-</div>
-
 ---
 
 ### CyFinder Application
-**Date:** [Development Period]  
+**Date:** [Fall/2024]  
 **Type:** Software Development Project
 
 #### Description
-Developed a comprehensive cybersecurity tool backend using Spring Boot, MySQL, and Hibernate. The application provides threat intelligence, vulnerability scanning, and security assessment capabilities through a RESTful API.
+Developed a comprehensive apartment and roommate finder backend using Spring Boot, MySQL, and Hibernate. The application has a roommate matcher algorithm, a map of apartments, and a messaging system built with websockets.
 
 #### My Role
 - **Backend Developer:** Designed and implemented REST API endpoints
@@ -192,15 +178,9 @@ Developed a comprehensive cybersecurity tool backend using Spring Boot, MySQL, a
 - **Testing:** Postman, JUnit, integration testing
 - **Development:** IntelliJ IDEA, Maven, Git
 
-#### Supporting Documents
-- [Link to GitHub repository]
-- [Link to API documentation]
-- [Link to testing reports]
-
----
 
 ### Cryptography Implementation
-**Date:** [Semester/Year]  
+**Date:** [Fall/2024]  
 **Type:** Academic Research Project
 
 #### Description
@@ -222,11 +202,6 @@ Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) c
 - **Programming:** Python, NumPy, cryptographic libraries
 - **Research:** Academic papers, cryptographic standards
 - **Testing:** Performance analysis tools, security testing frameworks
-
-#### Supporting Documents
-- [Link to source code]
-- [Link to research paper]
-- [Link to performance analysis]
 
 ---
 
@@ -252,7 +227,7 @@ Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) c
         <li><strong>Hardware Designer:</strong> Created VHDL modules for processor components</li>
         <li><strong>System Architect:</strong> Designed data paths and control logic</li>
         <li><strong>Tester:</strong> Developed testbenches and validation procedures</li>
-        <li><strong>Documenter:</strong> Created technical specifications and user guides</li>
+        <li><strong>Documenter:</strong> Created schematics and reports</li>
       </ul>
     </div>
     
@@ -281,15 +256,5 @@ Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) c
       <li><strong>Documentation:</strong> Technical writing tools, diagram software</li>
     </ul>
   </div>
-  
-  <div class="supporting-docs">
-    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
-    <div class="doc-links">
-      <a href="#" class="doc-link"><i class="fab fa-github"></i> VHDL Source Code</a>
-      <a href="#" class="doc-link"><i class="fas fa-chart-line"></i> Simulation Results</a>
-      <a href="#" class="doc-link"><i class="fas fa-file-alt"></i> Design Documentation</a>
-    </div>
-  </div>
-</div>
-
+ 
 
