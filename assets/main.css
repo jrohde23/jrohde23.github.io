@@ -2,7 +2,7 @@
 
 /* ===== CSS VARIABLES ===== */
 :root {
-  // Colors - Your existing scheme
+
   --accent: #4f46e5;
   --accent-2: #06b6d4;
   --bg: #0b1020;
@@ -10,7 +10,7 @@
   --muted: #9aa4b2;
   --card: #121a33;
   
-  // Layout
+ 
   --max-width: 1400px;
   --border-radius: 1rem;
 }
