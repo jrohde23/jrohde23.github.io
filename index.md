@@ -5,13 +5,7 @@ subtitle: Cybersecurity Engineering Student • Red Team Enthusiast • Builder
 description: Portfolio of Justin Rohde — Cybersecurity Engineering Student 
 ---
 
-<style>
-body {
-  background: #0b1020 !important;
-  color: #e6e9f0 !important;
-}
-.test-red { color: red !important; }
-</style>
+
 
 <p class="test-red">If this text is red, CSS is working. If not, CSS isn't loading.</p>
 <div class="hero">
