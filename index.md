@@ -1,8 +1,8 @@
 ---
 layout: home
 title: Justin Rohde — Portfolio
-subtitle: Cybersecurity Engineering Student • Red Team Enthusiast • Builder
-description: Portfolio of Justin Rohde — Cybersecurity Engineering Student 
+
+description: Cybersecurity engineering student, red teaming enthusiast, builder of systems & tools.
 ---
 
 <div class="hero">
