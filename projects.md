@@ -87,14 +87,10 @@ Built a comprehensive forensic investigation lab using virtual machines to simul
 - **Report Writing:** Technical documentation and evidence presentation
 
 #### Resources Used
-- **Hardware:** High-performance workstations, external storage
-- **Software:** VMware, Autopsy, Wireshark, FTK Imager
+- **Hardware:** VMWare Workstation Pro Hypervisor
+- **Software:** Autopsy, Wireshark, FTK Imager
 - **Virtualization:** Parrot OS for Investigation Box; Ubuntu for Malicious Box
 
-#### Supporting Documents
-- [Link to forensic report]
-- [Link to lab setup documentation]
-- [Link to evidence analysis]
 
 ---
 
@@ -211,16 +207,14 @@ Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) c
   <div class="project-content">
     <h3>MIPS Processor Design</h3>
     <div class="project-meta">
-      <span class="meta-item"><i class="fas fa-calendar"></i> [Semester/Year]</span>
+      <span class="meta-item"><i class="fas fa-calendar"></i> [Fall/2024]</span>
       <span class="meta-item"><i class="fas fa-microchip"></i> Hardware Design</span>
       <span class="meta-item"><i class="fas fa-code"></i> VHDL</span>
     </div>
-    
     <div class="project-description">
       <h4><i class="fas fa-info-circle"></i> Description</h4>
       <p>Designed and implemented both single-cycle and pipelined MIPS processors using VHDL. The project involved creating data paths, instruction sets, and control units, with comprehensive testing using Questa Sim simulation environment.</p>
     </div>
-    
     <div class="project-role">
       <h4><i class="fas fa-user-cog"></i> My Role</h4>
       <ul>
@@ -230,7 +224,6 @@ Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) c
         <li><strong>Documenter:</strong> Created schematics and reports</li>
       </ul>
     </div>
-    
     <div class="skills-gained">
       <h4><i class="fas fa-graduation-cap"></i> Skills & Knowledge Gained</h4>
       <ul>
@@ -241,12 +234,10 @@ Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) c
       </ul>
     </div>
   </div>
-  
   <div class="project-image">
     <img src="/assets/images/mips.jpg" alt="MIPS Processor Design" class="project-img">
   </div>
 </div>
-
 <div class="project-details">
   <div class="resources-used">
     <h4><i class="fas fa-tools"></i> Resources Used</h4>

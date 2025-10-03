@@ -1,6 +1,3 @@
----
----
-
 @import "minima";
 
 // Custom site styles to enhance visual appeal
@@ -21,22 +18,55 @@ body {
   color: var(--text);
 }
 
+/* ========== WIDER LAYOUT STYLES ========== */
+.wrapper {
+  max-width: 1400px !important; /* Increased from default */
+  width: 95% !important;
+  margin: 0 auto;
+}
+
 .page-content { 
   padding-top: 2rem; 
-  max-width: 100%;
+  max-width: 100% !important;
   margin: 0 auto;
+}
+
+.container {
+  max-width: 1400px !important;
+  width: 95% !important;
+  margin: 0 auto;
+}
+
+.site-nav {
+  max-width: 1400px !important;
+  margin: 0 auto;
+}
+
+// Make all pages wider by default
+.page, .post {
+  max-width: none !important;
+  width: 100% !important;
 }
 
 // Experience page specific styling for wider layout
 .experience-page .page-content {
-  max-width: 98%;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  max-width: 95%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+// Projects page wider layout
+.projects-page .page-content {
+  max-width: 95% !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .hero {
   text-align: center;
   padding: 6rem 1rem 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .profile-photo {
@@ -93,10 +123,10 @@ a { color: var(--accent); }
 
 .site-title, .site-nav .page-link { color: var(--text) !important; }
 
-// Projects grid layout
+// Projects grid layout - wider cards
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Increased min width */
   gap: 2rem;
   margin: 2rem 0;
 }
@@ -114,18 +144,19 @@ a { color: var(--accent); }
   box-shadow: 0 8px 25px rgba(79, 70, 229, 0.15);
 }
 
-// Project Showcase Layout
+// Project Showcase Layout - wider
 .project-showcase {
   display: grid;
-  grid-template-columns: 1fr 300px;
+  grid-template-columns: 1fr 350px; /* Increased image column */
   gap: 3rem;
   margin: 2rem 0;
-  padding: 2rem;
+  padding: 2.5rem; /* Increased padding */
   background: var(--card);
   border-radius: 1.5rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   transition: all 0.3s ease;
+  max-width: 100%;
 }
 
 .project-showcase:hover {
@@ -216,7 +247,7 @@ a { color: var(--accent); }
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 350px; /* Increased height */
   border-radius: 1.5rem;
   overflow: hidden;
   position: relative;
@@ -238,13 +269,14 @@ a { color: var(--accent); }
 
 .project-details {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Increased min width */
   gap: 2rem;
   margin: 2rem 0;
-  padding: 2rem;
+  padding: 2.5rem; /* Increased padding */
   background: rgba(255, 255, 255, 0.02);
   border-radius: 1rem;
   border: 1px solid rgba(255, 255, 255, 0.05);
+  max-width: 100%;
 }
 
 .resources-used, .big-picture, .supporting-docs {
@@ -380,7 +412,7 @@ a { color: var(--accent); }
   line-height: 1.5;
 }
 
-// Enhanced Experience Timeline Design
+// Enhanced Experience Timeline Design - wider
 .experience-hero {
   text-align: center;
   padding: 4rem 2rem;
@@ -389,6 +421,9 @@ a { color: var(--accent); }
   border-radius: 2rem;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .experience-hero h1 {
@@ -410,9 +445,9 @@ a { color: var(--accent); }
 
 .bubble-timeline {
   position: relative;
-  max-width: 98%;
+  max-width: 95%;
   margin: 0 auto;
-  padding: 3rem 0;
+  padding: 3rem 1rem;
 }
 
 .timeline-line {
@@ -452,8 +487,8 @@ a { color: var(--accent); }
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: all 0.3s ease;
   position: relative;
-  width: 45%;
-  margin: 0 2.5%;
+  width: 48%; /* Slightly wider bubbles */
+  margin: 0 1%;
 }
 
 .experience-bubble.current .bubble-content {
@@ -610,8 +645,96 @@ a { color: var(--accent); }
   50% { transform: translate(-50%, -50%) scale(1.1); }
 }
 
-// Responsive adjustments
+// PDF and document display styles
+.document-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 0.75rem;
+  color: var(--text);
+  text-decoration: none;
+  transition: all 0.2s ease;
+  margin: 0.5rem 0;
+}
+
+.document-link:hover {
+  background: rgba(79, 70, 229, 0.1);
+  border-color: var(--accent);
+  color: var(--text);
+  transform: translateY(-2px);
+}
+
+.document-link i {
+  color: var(--accent);
+  font-size: 1.2rem;
+}
+
+.document-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Wider cards */
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.document-card {
+  background: var(--card);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.document-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(79, 70, 229, 0.15);
+}
+
+.document-card h4 {
+  margin: 0 0 0.5rem 0;
+  color: var(--text);
+  font-size: 1.1rem;
+}
+
+.document-card p {
+  margin: 0 0 1rem 0;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.document-preview {
+  width: 100%;
+  height: 200px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.document-preview i {
+  font-size: 3rem;
+  color: var(--muted);
+}
+
+// Responsive adjustments for wider layout
 @media (max-width: 768px) {
+  .wrapper, .container {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 0 1rem;
+  }
+  
+  .page-content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
   .projects-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
@@ -664,8 +787,7 @@ a { color: var(--accent); }
   }
   
   .timeline-line {
-    left: 50%;
-    transform: translateX(-50%)
+    left: 30px;
   }
   
   .experience-bubble {
@@ -714,83 +836,14 @@ a { color: var(--accent); }
     font-size: 0.9rem;
     padding: 0.75rem 1rem;
   }
+  
+  .document-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
-// PDF and document display styles
-.document-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1rem;
-  background: rgba(255, 255, 255, 0.05);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 0.75rem;
-  color: var(--text);
-  text-decoration: none;
-  transition: all 0.2s ease;
-  margin: 0.5rem 0;
+// Additional wide layout for home page
+.home .page-content {
+  max-width: 1200px !important;
+  margin: 0 auto;
 }
-
-.document-link:hover {
-  background: rgba(79, 70, 229, 0.1);
-  border-color: var(--accent);
-  color: var(--text);
-  transform: translateY(-2px);
-}
-
-.document-link i {
-  color: var(--accent);
-  font-size: 1.2rem;
-}
-
-.document-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1rem;
-  margin: 1rem 0;
-}
-
-.document-card {
-  background: var(--card);
-  border-radius: 1rem;
-  padding: 1.5rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.document-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(79, 70, 229, 0.15);
-}
-
-.document-card h4 {
-  margin: 0 0 0.5rem 0;
-  color: var(--text);
-  font-size: 1.1rem;
-}
-
-.document-card p {
-  margin: 0 0 1rem 0;
-  color: var(--muted);
-  font-size: 0.9rem;
-  line-height: 1.4;
-}
-
-.document-preview {
-  width: 100%;
-  height: 200px;
-  background: rgba(255, 255, 255, 0.02);
-  border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1rem 0;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.document-preview i {
-  font-size: 3rem;
-  color: var(--muted);
-}
-
-
