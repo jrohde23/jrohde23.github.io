@@ -6,7 +6,6 @@ permalink: /projects/
 
 <div class="projects-hero">
   <h1>My Projects</h1>
-  <p>Building secure systems, automating workflows, and turning ideas into reality</p>
 </div>
 
 ## Senior Design Project
@@ -16,8 +15,8 @@ permalink: /projects/
     <h3>Secure Wireless Aircraft Data Load</h3>
     <div class="project-meta">
       <span class="meta-item"><i class="fas fa-calendar"></i> Fall/Spring 2025-26</span>
-      <span class="meta-item"><i class="fas fa-users"></i> 4 Team Members</span>
-      <span class="meta-item"><i class="fas fa-clock"></i> 8 Months</span>
+      <span class="meta-item"><i class="fas fa-users"></i> 6 Team Members</span>
+      <span class="meta-item"><i class="fas fa-clock"></i> 2 Semesters </span>
     </div>
     
     <div class="project-description">
@@ -59,7 +58,6 @@ permalink: /projects/
 
 ---
 
-## Iowa State Cyber Defense Competition
 
 <div class="project-showcase">
   <div class="project-content">
@@ -72,7 +70,7 @@ permalink: /projects/
     
     <div class="project-description">
       <h4><i class="fas fa-info-circle"></i> Description</h4>
-      <p>Led a team of 4 cybersecurity students in defending 8 servers against continuous red team attacks. Successfully maintained 95% system uptime while implementing real-time security measures and incident response protocols.</p>
+      <p>Led a team of 8 cybersecurity students in defending 8 servers against continuous red team attacks. Successfully maintained 95% system uptime while implementing real-time security measures and incident response protocols.</p>
     </div>
     
     <div class="project-role">
@@ -114,7 +112,6 @@ permalink: /projects/
 
 ---
 
-## Forensic Investigation Lab
 
 <div class="project-showcase">
   <div class="project-content">
@@ -175,7 +172,6 @@ permalink: /projects/
 
 ---
 
-## CyFinder Application
 
 <div class="project-showcase">
   <div class="project-content">
@@ -235,75 +231,8 @@ permalink: /projects/
 
 ---
 
-## Cryptography Implementation
 
-<div class="project-showcase">
-  <div class="project-content">
-    <h3>Cryptography Implementation</h3>
-    <div class="project-meta">
-      <span class="meta-item"><i class="fas fa-calendar"></i> Fall 2024</span>
-      <span class="meta-item"><i class="fas fa-lock"></i> Research Project</span>
-      <span class="meta-item"><i class="fab fa-python"></i> Python</span>
-    </div>
-    
-    <div class="project-description">
-      <h4><i class="fas fa-info-circle"></i> Description</h4>
-      <p>Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) cryptosystem incorporating Feistel networks, S-Boxes, and key rotation mechanisms. The project focused on understanding cryptographic principles through hands-on implementation and security analysis.</p>
-    </div>
-    
-    <div class="project-role">
-      <h4><i class="fas fa-user-cog"></i> My Role</h4>
-      <ul>
-        <li><strong>Cryptographer:</strong> Designed and implemented LFSR algorithms</li>
-        <li><strong>Security Analyst:</strong> Analyzed cryptographic strength and vulnerabilities</li>
-        <li><strong>Researcher:</strong> Studied advanced cryptographic techniques</li>
-        <li><strong>Tester:</strong> Conducted security analysis and performance testing</li>
-      </ul>
-    </div>
-    
-    <div class="skills-gained">
-      <h4><i class="fas fa-graduation-cap"></i> Skills & Knowledge Gained</h4>
-      <ul>
-        <li><strong>Cryptography:</strong> LFSR implementation, Feistel networks, S-Box design</li>
-        <li><strong>Python Programming:</strong> Advanced algorithms, mathematical computations</li>
-        <li><strong>Security Analysis:</strong> Cryptographic attack methods, vulnerability assessment</li>
-        <li><strong>Research Skills:</strong> Academic literature review, technical documentation</li>
-      </ul>
-    </div>
-  </div>
-  
-  <div class="project-image">
-    <div class="cert-placeholder">
-      <i class="fas fa-lock"></i>
-      <span>Crypto System</span>
-      <a href="#" class="view-cert">View Implementation</a>
-    </div>
-  </div>
-</div>
 
-<div class="project-details">
-  <div class="resources-used">
-    <h4><i class="fas fa-tools"></i> Resources Used</h4>
-    <ul>
-      <li><strong>Programming:</strong> Python, NumPy, cryptographic libraries</li>
-      <li><strong>Research:</strong> Academic papers, cryptographic standards</li>
-      <li><strong>Testing:</strong> Performance analysis tools, security testing frameworks</li>
-    </ul>
-  </div>
-  
-  <div class="supporting-docs">
-    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
-    <div class="doc-links">
-      <a href="#" class="doc-link"><i class="fab fa-github"></i> Source Code</a>
-      <a href="#" class="doc-link"><i class="fas fa-file-pdf"></i> Research Paper</a>
-      <a href="#" class="doc-link"><i class="fas fa-chart-line"></i> Performance Analysis</a>
-    </div>
-  </div>
-</div>
-
----
-
-## MIPS Processor Design
 
 <div class="project-showcase">
   <div class="project-content">
