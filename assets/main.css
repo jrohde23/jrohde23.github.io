@@ -1,16 +1,11 @@
-@import "minima";
-
 /* ===== CSS VARIABLES ===== */
 :root {
-
   --accent: #4f46e5;
   --accent-2: #06b6d4;
   --bg: #0b1020;
   --text: #e6e9f0;
   --muted: #9aa4b2;
   --card: #121a33;
-  
- 
   --max-width: 1400px;
   --border-radius: 1rem;
 }
@@ -25,8 +20,8 @@ html {
 }
 
 body {
-  background: var(--bg);
-  color: var(--text);
+  background: var(--bg) !important;
+  color: var(--text) !important;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   line-height: 1.6;
   margin: 0;
@@ -51,7 +46,6 @@ body {
   max-width: 100% !important;
 }
 
-// Apply wide layout to all pages
 .page, .post, .home {
   max-width: none !important;
   width: 100% !important;
@@ -59,331 +53,28 @@ body {
 
 /* ===== HEADER & NAVIGATION ===== */
 .site-header {
-  background: transparent;
+  background: transparent !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 1rem 0;
-  position: sticky;
-  top: 0;
-  backdrop-filter: blur(10px);
-  z-index: 1000;
 }
 
 .site-title, 
 .site-nav .page-link {
   color: var(--text) !important;
-  transition: color 0.2s ease;
 }
 
 .site-nav .page-link:hover {
   color: var(--accent) !important;
 }
 
-/* ===== HOME PAGE ===== */
-.home-page {
-  .hero {
-    text-align: center;
-    padding: 6rem 2rem 4rem;
-    max-width: 1000px;
-    margin: 0 auto;
-    
-    .profile-photo {
-      width: 200px;
-      height: 200px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 2rem;
-      border: 4px solid var(--accent);
-      box-shadow: 0 8px 32px rgba(79, 70, 229, 0.3);
-      transition: transform 0.3s ease;
-      
-      &:hover {
-        transform: scale(1.05);
-      }
-    }
-    
-    .lead {
-      font-size: 1.25rem;
-      color: var(--muted);
-      max-width: 600px;
-      margin: 0 auto 2rem;
-      line-height: 1.6;
-    }
-    
-    .cta-row {
-      display: flex;
-      gap: 1rem;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-bottom: 2rem;
-    }
-  }
+/* Make sure all text elements have your colors */
+h1, h2, h3, h4, h5, h6, p, li, span, div {
+  color: var(--text) !important;
 }
 
-/* ===== PROJECTS PAGE ===== */
-.projects-page {
-  .project-showcase {
-    display: grid;
-    grid-template-columns: 1fr 350px;
-    gap: 3rem;
-    margin: 2rem 0;
-    padding: 2.5rem;
-    background: var(--card);
-    border-radius: var(--border-radius);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    transition: all 0.3s ease;
-    
-    &:hover {
-      transform: translateY(-5px);
-      border-color: var(--accent);
-    }
-    
-    .project-content {
-      h3 {
-        margin: 0 0 1rem 0;
-        font-size: 1.8rem;
-        background: linear-gradient(135deg, var(--accent), var(--accent-2));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-      }
-      
-      .project-meta {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 1rem;
-        margin-bottom: 1.5rem;
-        
-        .meta-item {
-          display: flex;
-          align-items: center;
-          gap: 0.5rem;
-          padding: 0.5rem 1rem;
-          background: rgba(79, 70, 229, 0.1);
-          border: 1px solid rgba(79, 70, 229, 0.3);
-          border-radius: 2rem;
-          font-size: 0.9rem;
-        }
-      }
-    }
-    
-    .project-image {
-      height: 300px;
-      border-radius: var(--border-radius);
-      overflow: hidden;
-      
-      .project-img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        transition: transform 0.3s ease;
-      }
-      
-      &:hover .project-img {
-        transform: scale(1.05);
-      }
-    }
-  }
-  
-  .project-details {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2rem;
-    margin: 2rem 0;
-    
-    .resources-used, .big-picture, .supporting-docs {
-      background: var(--card);
-      padding: 1.5rem;
-      border-radius: var(--border-radius);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-    }
-  }
-}
-
-/* ===== EXPERIENCE PAGE ===== */
-.experience-page {
-  .experience-hero {
-    text-align: center;
-    padding: 4rem 2rem;
-    background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.1));
-    margin-bottom: 3rem;
-    border-radius: var(--border-radius);
-    
-    h1 {
-      font-size: 3rem;
-      background: linear-gradient(135deg, var(--accent), var(--accent-2));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      margin-bottom: 1rem;
-    }
-  }
-  
-  .bubble-timeline {
-    position: relative;
-    max-width: 95%;
-    margin: 0 auto;
-    padding: 3rem 1rem;
-    
-    .timeline-line {
-      position: absolute;
-      left: 50%;
-      top: 0;
-      bottom: 0;
-      width: 4px;
-      background: linear-gradient(to bottom, var(--accent), var(--accent-2));
-      transform: translateX(-50%);
-    }
-    
-    .experience-bubble {
-      position: relative;
-      margin: 4rem 0;
-      display: flex;
-      align-items: center;
-      
-      &:nth-child(odd) {
-        flex-direction: row;
-      }
-      
-      &:nth-child(even) {
-        flex-direction: row-reverse;
-      }
-      
-      .bubble-content {
-        background: var(--card);
-        border-radius: var(--border-radius);
-        padding: 2rem;
-        width: 48%;
-        margin: 0 1%;
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        transition: all 0.3s ease;
-        
-        &:hover {
-          transform: translateY(-5px);
-          border-color: var(--accent);
-        }
-        
-        .bubble-header {
-          display: flex;
-          align-items: center;
-          margin-bottom: 1.5rem;
-          
-          .bubble-icon {
-            width: 70px;
-            height: 70px;
-            background: linear-gradient(135deg, var(--accent), var(--accent-2));
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 1.5rem;
-            margin-right: 1.5rem;
-          }
-        }
-      }
-    }
-  }
-}
-
-/* ===== ABOUT PAGE ===== */
-.about-page {
-  .about-content {
-    max-width: 800px;
-    margin: 0 auto;
-    
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-      margin: 2rem 0;
-      
-      .skill-category {
-        background: var(--card);
-        padding: 1.5rem;
-        border-radius: var(--border-radius);
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        
-        h3 {
-          margin-bottom: 1rem;
-          color: var(--accent);
-        }
-        
-        ul {
-          list-style: none;
-          padding: 0;
-          margin: 0;
-          
-          li {
-            padding: 0.5rem 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-            
-            &:last-child {
-              border-bottom: none;
-            }
-          }
-        }
-      }
-    }
-  }
-}
-
-/* ===== RESUME PAGE ===== */
-.resume-page {
-  .resume-content {
-    max-width: 1000px;
-    margin: 0 auto;
-    
-    .resume-download {
-      text-align: center;
-      margin: 2rem 0;
-      
-      .btn {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.5rem;
-        padding: 1rem 2rem;
-        font-size: 1.1rem;
-      }
-    }
-    
-    .resume-preview {
-      background: var(--card);
-      border-radius: var(--border-radius);
-      padding: 2rem;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      
-      img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 0.5rem;
-      }
-    }
-  }
-}
-
-/* ===== ETHICS & REFLECTIONS PAGES ===== */
-.ethics-page, .reflections-page {
-  .page-content {
-    max-width: 800px;
-    margin: 0 auto;
-    
-    .content-card {
-      background: var(--card);
-      padding: 2rem;
-      border-radius: var(--border-radius);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      margin-bottom: 2rem;
-      
-      h2 {
-        color: var(--accent);
-        margin-bottom: 1rem;
-      }
-      
-      p {
-        line-height: 1.7;
-        color: var(--muted);
-      }
-    }
-  }
+/* Make sure background colors apply */
+.post, .page, .home .post-list > li {
+  background: var(--card) !important;
+  color: var(--text) !important;
 }
 
 /* ===== BUTTONS ===== */
@@ -398,83 +89,46 @@ body {
   border: none;
   cursor: pointer;
   transition: all 0.2s ease;
-  
-  &.btn-primary {
-    background: var(--accent);
-    color: white;
-    
-    &:hover {
-      background: #4338ca;
-      transform: translateY(-2px);
-    }
-  }
-  
-  &.btn-secondary {
-    background: var(--accent-2);
-    color: #06252a;
-    
-    &:hover {
-      background: #0891b2;
-      transform: translateY(-2px);
-    }
-  }
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
+.btn-primary {
+  background: var(--accent) !important;
+  color: white !important;
+}
+
+.btn-primary:hover {
+  background: #4338ca !important;
+  transform: translateY(-2px);
+}
+
+/* ===== PROJECT STYLES ===== */
+.project-showcase {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 3rem;
+  margin: 2rem 0;
+  padding: 2.5rem;
+  background: var(--card) !important;
+  border-radius: var(--border-radius);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.project-content h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.8rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Responsive */
 @media (max-width: 768px) {
   .wrapper, .container {
     width: 100% !important;
     padding: 0 1rem;
   }
   
-  .projects-page .project-showcase {
-    grid-template-columns: 1fr;
-    gap: 2rem;
-    padding: 1.5rem;
-    
-    .project-image {
-      order: -1;
-      height: 250px;
-    }
-  }
-  
-  .experience-page {
-    .bubble-timeline {
-      padding: 2rem 0;
-      
-      .timeline-line {
-        left: 30px;
-      }
-      
-      .experience-bubble {
-        flex-direction: row !important;
-        padding-left: 4rem;
-        margin: 3rem 0;
-        
-        .bubble-content {
-          width: 100%;
-          margin: 0;
-        }
-      }
-    }
-  }
-  
-  .home-page .hero {
-    padding: 4rem 1rem 2rem;
-    
-    .cta-row {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
-}
-
-@media (max-width: 480px) {
-  .page-content {
-    padding: 1rem 0;
-  }
-  
-  .projects-page .project-details {
+  .project-showcase {
     grid-template-columns: 1fr;
   }
 }
