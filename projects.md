@@ -6,10 +6,8 @@ permalink: /projects/
 
 <div class="projects-hero">
   <h1>My Projects</h1>
-  <p>Building secure systems, automating workflows, and turning ideas into reality</p>
 </div>
 
-## Senior Design Project
 
 <div class="project-showcase">
   <div class="project-content">
@@ -22,7 +20,7 @@ permalink: /projects/
     
     <div class="project-description">
       <h4><i class="fas fa-info-circle"></i> Description</h4>
-      <p>Developing a secure wireless data loading system for aircraft that ensures data integrity and prevents unauthorized access. The system implements end-to-end encryption and secure authentication protocols to protect critical flight data during wireless transmission.</p>
+      <p>Developing a secure wireless data loading system for aircraft that ensures data integrity and prevents unauthorized access. The system implements EAP-TLS and secure authentication protocols to protect critical flight data during wireless transmission.</p>
     </div>
     
     <div class="project-role">
@@ -50,31 +48,14 @@ permalink: /projects/
   <div class="resources-used">
     <h4><i class="fas fa-tools"></i> Resources Used</h4>
     <ul>
-      <li><strong>Hardware:</strong> [Specific hardware components and tools]</li>
-      <li><strong>Software:</strong> [Development environments, frameworks, libraries]</li>
-      <li><strong>Methodologies:</strong> [Project management approaches, design processes]</li>
+      <li><strong>Hardware:</strong> Raspberry Pi 5</li>
+      <li><strong>Software:</strong> TBD </li>
+      <li><strong>Methodologies:</strong> Agile Workflow </li>
     </ul>
   </div>
   
-  <div class="big-picture">
-    <h4><i class="fas fa-lightbulb"></i> Big Picture Contribution</h4>
-    <p>[Explanation of how this project contributes to the broader field of cybersecurity engineering, potential real-world applications, and impact on society or industry.]</p>
-  </div>
   
-  <div class="supporting-docs">
-    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
-    <div class="doc-links">
-      <a href="#" class="doc-link"><i class="fas fa-file-pdf"></i> Project Report</a>
-      <a href="#" class="doc-link"><i class="fas fa-presentation"></i> Presentation Slides</a>
-      <a href="#" class="doc-link"><i class="fab fa-github"></i> Code Repository</a>
-      <a href="#" class="doc-link"><i class="fas fa-video"></i> Demonstration Videos</a>
-    </div>
-  </div>
-</div>
 
----
-
-## Iowa State Cyber Defense Competition
 
 <div class="project-showcase">
   <div class="project-content">
@@ -121,24 +102,13 @@ permalink: /projects/
     <h4><i class="fas fa-tools"></i> Resources Used</h4>
     <ul>
       <li><strong>Infrastructure:</strong> Windows Server, Active Directory, network equipment</li>
-      <li><strong>Security Tools:</strong> SIEM, endpoint protection, network monitoring</li>
+      <li><strong>Security Tools:</strong> Wazuh SIEM, endpoint protection, network monitoring</li>
       <li><strong>Documentation:</strong> Incident response playbooks, security policies</li>
     </ul>
   </div>
   
-  <div class="supporting-docs">
-    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
-    <div class="doc-links">
-      <a href="#" class="doc-link"><i class="fas fa-file-pdf"></i> Competition Report</a>
-      <a href="#" class="doc-link"><i class="fas fa-presentation"></i> Defense Presentation</a>
-      <a href="#" class="doc-link"><i class="fas fa-clipboard-list"></i> Team Strategy Documentation</a>
-    </div>
-  </div>
-</div>
-
 ---
 
-## Forensic Investigation Lab
 
 <div class="project-showcase">
   <div class="project-content">
@@ -167,7 +137,7 @@ permalink: /projects/
       <h4><i class="fas fa-graduation-cap"></i> Skills & Knowledge Gained</h4>
       <ul>
         <li><strong>Digital Forensics:</strong> Autopsy, file system analysis, memory forensics</li>
-        <li><strong>Network Security:</strong> Traffic analysis, intrusion detection</li>
+        <li><strong>Network Security:</strong> Wireshark Traffic analysis, intrusion detection</li>
         <li><strong>Steganography:</strong> Image and file hiding techniques</li>
         <li><strong>Report Writing:</strong> Technical documentation and evidence presentation</li>
       </ul>
@@ -193,19 +163,8 @@ permalink: /projects/
     </ul>
   </div>
   
-  <div class="supporting-docs">
-    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
-    <div class="doc-links">
-      <a href="#" class="doc-link"><i class="fas fa-file-pdf"></i> Lab Report</a>
-      <a href="#" class="doc-link"><i class="fas fa-clipboard-list"></i> Investigation Methodology</a>
-      <a href="#" class="doc-link"><i class="fab fa-github"></i> Lab Configuration</a>
-    </div>
-  </div>
-</div>
-
 ---
 
-## CyFinder Application
 
 <div class="project-showcase">
   <div class="project-content">
@@ -262,19 +221,8 @@ permalink: /projects/
     </ul>
   </div>
   
-  <div class="supporting-docs">
-    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
-    <div class="doc-links">
-      <a href="#" class="doc-link"><i class="fab fa-github"></i> Source Code</a>
-      <a href="#" class="doc-link"><i class="fas fa-file-alt"></i> API Documentation</a>
-      <a href="#" class="doc-link"><i class="fas fa-chart-bar"></i> Testing Reports</a>
-    </div>
-  </div>
-</div>
-
 ---
 
-## Cryptography Implementation
 
 <div class="project-showcase">
   <div class="project-content">
@@ -342,7 +290,6 @@ permalink: /projects/
 
 ---
 
-## MIPS Processor Design
 
 <div class="project-showcase">
   <div class="project-content">
@@ -389,12 +336,3 @@ permalink: /projects/
     </ul>
   </div>
   
-  <div class="supporting-docs">
-    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
-    <div class="doc-links">
-      <a href="#" class="doc-link"><i class="fab fa-github"></i> VHDL Source Code</a>
-      <a href="#" class="doc-link"><i class="fas fa-chart-line"></i> Simulation Results</a>
-      <a href="#" class="doc-link"><i class="fas fa-file-alt"></i> Design Documentation</a>
-    </div>
-  </div>
-</div>
