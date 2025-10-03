@@ -151,10 +151,13 @@ permalink: /projects/
   </div>
   
   <div class="project-image">
-    <div class="cert-placeholder">
-      <i class="fas fa-microscope"></i>
-      <span>Forensic Lab</span>
-      <a href="#" class="view-cert">View Lab Setup</a>
+    <div class="document-viewer">
+      <iframe src="/assets/images/FinalProject-JR.pdf" class="pdf-viewer"></iframe>
+      <div class="viewer-controls">
+        <a href="/assets/images/FinalProject-JR.pdf" target="_blank" class="view-cert">
+          <i class="fas fa-external-link-alt"></i> Open Full Document
+        </a>
+      </div>
     </div>
   </div>
 </div>
