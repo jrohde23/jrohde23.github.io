@@ -74,41 +74,7 @@ permalink: /projects/
 
 ---
 
-## Additional Projects
-
-### Forensic Investigation Lab
-**Date:** [Semester/Year]  
-**Type:** Academic Project
-
-#### Description
-Built a comprehensive forensic investigation lab using virtual machines to simulate real-world cybercrime scenarios. The project involved setting up isolated network environments, performing digital forensics on compromised systems, and conducting steganography analysis to uncover hidden information.
-
-#### My Role
-- **Lab Architect:** Designed and implemented the virtual lab environment
-- **Lead Investigator:** Conducted forensic analysis and evidence collection
-- **Report Author:** Compiled detailed investigation reports with findings and recommendations
-
-#### Skills & Knowledge Gained
-- **Digital Forensics:** Autopsy, file system analysis, memory forensics
-- **Network Security:** Traffic analysis, intrusion detection
-- **Steganography:** Image and file hiding techniques
-- **Report Writing:** Technical documentation and evidence presentation
-
-#### Resources Used
-<<<<<<< HEAD
-- **Hardware:** VMWare Workstation Pro Hypervisor
-- **Software:** Autopsy, Wireshark, FTK Imager
-- **Virtualization:** Parrot OS for Investigation Box; Ubuntu for Malicious Box
-=======
-- **Hardware:** High-performance workstations, external storage
-- **Software:** VMware, Autopsy, Wireshark, FTK Imager
-- **Virtualization:** Multiple VM environments for testing
->>>>>>> parent of 7b20603 (Made changes to projects page)
-
-
----
-
-### Iowa State Cyber Defense Competition
+## Iowa State Cyber Defense Competition
 
 <div class="project-showcase">
   <div class="project-content">
@@ -172,77 +138,217 @@ Built a comprehensive forensic investigation lab using virtual machines to simul
 
 ---
 
-### CyFinder Application
-**Date:** [Development Period]  
-**Type:** Software Development Project
+## Forensic Investigation Lab
 
-#### Description
-Developed a comprehensive cybersecurity tool backend using Spring Boot, MySQL, and Hibernate. The application provides threat intelligence, vulnerability scanning, and security assessment capabilities through a RESTful API.
+<div class="project-showcase">
+  <div class="project-content">
+    <h3>Forensic Investigation Lab</h3>
+    <div class="project-meta">
+      <span class="meta-item"><i class="fas fa-calendar"></i> Spring 2024</span>
+      <span class="meta-item"><i class="fas fa-microscope"></i> Academic Project</span>
+      <span class="meta-item"><i class="fas fa-shield-alt"></i> Digital Forensics</span>
+    </div>
+    
+    <div class="project-description">
+      <h4><i class="fas fa-info-circle"></i> Description</h4>
+      <p>Built a comprehensive forensic investigation lab using virtual machines to simulate real-world cybercrime scenarios. The project involved setting up isolated network environments, performing digital forensics on compromised systems, and conducting steganography analysis to uncover hidden information.</p>
+    </div>
+    
+    <div class="project-role">
+      <h4><i class="fas fa-user-cog"></i> My Role</h4>
+      <ul>
+        <li><strong>Lab Architect:</strong> Designed and implemented the virtual lab environment</li>
+        <li><strong>Lead Investigator:</strong> Conducted forensic analysis and evidence collection</li>
+        <li><strong>Report Author:</strong> Compiled detailed investigation reports with findings and recommendations</li>
+      </ul>
+    </div>
+    
+    <div class="skills-gained">
+      <h4><i class="fas fa-graduation-cap"></i> Skills & Knowledge Gained</h4>
+      <ul>
+        <li><strong>Digital Forensics:</strong> Autopsy, file system analysis, memory forensics</li>
+        <li><strong>Network Security:</strong> Traffic analysis, intrusion detection</li>
+        <li><strong>Steganography:</strong> Image and file hiding techniques</li>
+        <li><strong>Report Writing:</strong> Technical documentation and evidence presentation</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="project-image">
+    <div class="cert-placeholder">
+      <i class="fas fa-microscope"></i>
+      <span>Forensic Lab</span>
+      <a href="#" class="view-cert">View Lab Setup</a>
+    </div>
+  </div>
+</div>
 
-#### My Role
-- **Backend Developer:** Designed and implemented REST API endpoints
-- **Database Architect:** Created and optimized MySQL database schema
-- **Security Engineer:** Implemented authentication and authorization
-- **API Tester:** Conducted comprehensive testing with Postman
-
-#### Skills & Knowledge Gained
-- **Backend Development:** Spring Boot, Hibernate, JPA
-- **Database Design:** MySQL optimization, query performance
-- **API Development:** RESTful services, JSON handling
-- **Security Implementation:** Password hashing, session management
-- **Version Control:** Git collaboration, code review processes
-
-#### Resources Used
-- **Frameworks:** Spring Boot, Hibernate, Spring Security
-- **Database:** MySQL, database design tools
-- **Testing:** Postman, JUnit, integration testing
-- **Development:** IntelliJ IDEA, Maven, Git
-
-#### Supporting Documents
-- [Link to GitHub repository]
-- [Link to API documentation]
-- [Link to testing reports]
+<div class="project-details">
+  <div class="resources-used">
+    <h4><i class="fas fa-tools"></i> Resources Used</h4>
+    <ul>
+      <li><strong>Hardware:</strong> VMWare Workstation Pro Hypervisor</li>
+      <li><strong>Software:</strong> Autopsy, Wireshark, FTK Imager</li>
+      <li><strong>Virtualization:</strong> Parrot OS for Investigation Box; Ubuntu for Malicious Box</li>
+    </ul>
+  </div>
+  
+  <div class="supporting-docs">
+    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
+    <div class="doc-links">
+      <a href="#" class="doc-link"><i class="fas fa-file-pdf"></i> Lab Report</a>
+      <a href="#" class="doc-link"><i class="fas fa-clipboard-list"></i> Investigation Methodology</a>
+      <a href="#" class="doc-link"><i class="fab fa-github"></i> Lab Configuration</a>
+    </div>
+  </div>
+</div>
 
 ---
 
-### Cryptography Implementation
-**Date:** [Semester/Year]  
-**Type:** Academic Research Project
+## CyFinder Application
 
-#### Description
-Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) cryptosystem incorporating Feistel networks, S-Boxes, and key rotation mechanisms. The project focused on understanding cryptographic principles through hands-on implementation.
+<div class="project-showcase">
+  <div class="project-content">
+    <h3>CyFinder Application</h3>
+    <div class="project-meta">
+      <span class="meta-item"><i class="fas fa-calendar"></i> Fall 2024</span>
+      <span class="meta-item"><i class="fas fa-code"></i> Software Development</span>
+      <span class="meta-item"><i class="fas fa-database"></i> Full-Stack Project</span>
+    </div>
+    
+    <div class="project-description">
+      <h4><i class="fas fa-info-circle"></i> Description</h4>
+      <p>Developed a comprehensive apartment and roommate finder backend using Spring Boot, MySQL, and Hibernate. The application features a roommate matcher algorithm, apartment mapping, and a real-time messaging system built with websockets.</p>
+    </div>
+    
+    <div class="project-role">
+      <h4><i class="fas fa-user-cog"></i> My Role</h4>
+      <ul>
+        <li><strong>Backend Developer:</strong> Designed and implemented REST API endpoints</li>
+        <li><strong>Database Architect:</strong> Created and optimized MySQL database schema</li>
+        <li><strong>Security Engineer:</strong> Implemented authentication and authorization</li>
+        <li><strong>API Tester:</strong> Conducted comprehensive testing with Postman</li>
+      </ul>
+    </div>
+    
+    <div class="skills-gained">
+      <h4><i class="fas fa-graduation-cap"></i> Skills & Knowledge Gained</h4>
+      <ul>
+        <li><strong>Backend Development:</strong> Spring Boot, Hibernate, JPA</li>
+        <li><strong>Database Design:</strong> MySQL optimization, query performance</li>
+        <li><strong>API Development:</strong> RESTful services, JSON handling</li>
+        <li><strong>Security Implementation:</strong> Password hashing, session management</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="project-image">
+    <div class="cert-placeholder">
+      <i class="fas fa-code"></i>
+      <span>CyFinder App</span>
+      <a href="#" class="view-cert">View Demo</a>
+    </div>
+  </div>
+</div>
 
-#### My Role
-- **Cryptographer:** Designed and implemented LFSR algorithms
-- **Security Analyst:** Analyzed cryptographic strength and vulnerabilities
-- **Researcher:** Studied advanced cryptographic techniques
-- **Tester:** Conducted security analysis and performance testing
-
-#### Skills & Knowledge Gained
-- **Cryptography:** LFSR implementation, Feistel networks, S-Box design
-- **Python Programming:** Advanced algorithms, mathematical computations
-- **Security Analysis:** Cryptographic attack methods, vulnerability assessment
-- **Research Skills:** Academic literature review, technical documentation
-
-#### Resources Used
-- **Programming:** Python, NumPy, cryptographic libraries
-- **Research:** Academic papers, cryptographic standards
-- **Testing:** Performance analysis tools, security testing frameworks
-
-#### Supporting Documents
-- [Link to source code]
-- [Link to research paper]
-- [Link to performance analysis]
+<div class="project-details">
+  <div class="resources-used">
+    <h4><i class="fas fa-tools"></i> Resources Used</h4>
+    <ul>
+      <li><strong>Frameworks:</strong> Spring Boot, Hibernate, Spring Security</li>
+      <li><strong>Database:</strong> MySQL, database design tools</li>
+      <li><strong>Testing:</strong> Postman, JUnit, integration testing</li>
+      <li><strong>Development:</strong> IntelliJ IDEA, Maven, Git</li>
+    </ul>
+  </div>
+  
+  <div class="supporting-docs">
+    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
+    <div class="doc-links">
+      <a href="#" class="doc-link"><i class="fab fa-github"></i> Source Code</a>
+      <a href="#" class="doc-link"><i class="fas fa-file-alt"></i> API Documentation</a>
+      <a href="#" class="doc-link"><i class="fas fa-chart-bar"></i> Testing Reports</a>
+    </div>
+  </div>
+</div>
 
 ---
 
-### MIPS Processor Design
+## Cryptography Implementation
+
+<div class="project-showcase">
+  <div class="project-content">
+    <h3>Cryptography Implementation</h3>
+    <div class="project-meta">
+      <span class="meta-item"><i class="fas fa-calendar"></i> Fall 2024</span>
+      <span class="meta-item"><i class="fas fa-lock"></i> Research Project</span>
+      <span class="meta-item"><i class="fab fa-python"></i> Python</span>
+    </div>
+    
+    <div class="project-description">
+      <h4><i class="fas fa-info-circle"></i> Description</h4>
+      <p>Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) cryptosystem incorporating Feistel networks, S-Boxes, and key rotation mechanisms. The project focused on understanding cryptographic principles through hands-on implementation and security analysis.</p>
+    </div>
+    
+    <div class="project-role">
+      <h4><i class="fas fa-user-cog"></i> My Role</h4>
+      <ul>
+        <li><strong>Cryptographer:</strong> Designed and implemented LFSR algorithms</li>
+        <li><strong>Security Analyst:</strong> Analyzed cryptographic strength and vulnerabilities</li>
+        <li><strong>Researcher:</strong> Studied advanced cryptographic techniques</li>
+        <li><strong>Tester:</strong> Conducted security analysis and performance testing</li>
+      </ul>
+    </div>
+    
+    <div class="skills-gained">
+      <h4><i class="fas fa-graduation-cap"></i> Skills & Knowledge Gained</h4>
+      <ul>
+        <li><strong>Cryptography:</strong> LFSR implementation, Feistel networks, S-Box design</li>
+        <li><strong>Python Programming:</strong> Advanced algorithms, mathematical computations</li>
+        <li><strong>Security Analysis:</strong> Cryptographic attack methods, vulnerability assessment</li>
+        <li><strong>Research Skills:</strong> Academic literature review, technical documentation</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="project-image">
+    <div class="cert-placeholder">
+      <i class="fas fa-lock"></i>
+      <span>Crypto System</span>
+      <a href="#" class="view-cert">View Implementation</a>
+    </div>
+  </div>
+</div>
+
+<div class="project-details">
+  <div class="resources-used">
+    <h4><i class="fas fa-tools"></i> Resources Used</h4>
+    <ul>
+      <li><strong>Programming:</strong> Python, NumPy, cryptographic libraries</li>
+      <li><strong>Research:</strong> Academic papers, cryptographic standards</li>
+      <li><strong>Testing:</strong> Performance analysis tools, security testing frameworks</li>
+    </ul>
+  </div>
+  
+  <div class="supporting-docs">
+    <h4><i class="fas fa-file-alt"></i> Supporting Documents</h4>
+    <div class="doc-links">
+      <a href="#" class="doc-link"><i class="fab fa-github"></i> Source Code</a>
+      <a href="#" class="doc-link"><i class="fas fa-file-pdf"></i> Research Paper</a>
+      <a href="#" class="doc-link"><i class="fas fa-chart-line"></i> Performance Analysis</a>
+    </div>
+  </div>
+</div>
+
+---
+
+## MIPS Processor Design
 
 <div class="project-showcase">
   <div class="project-content">
     <h3>MIPS Processor Design</h3>
     <div class="project-meta">
-      <span class="meta-item"><i class="fas fa-calendar"></i> Fall 2023</span>
+      <span class="meta-item"><i class="fas fa-calendar"></i> Fall 2024</span>
       <span class="meta-item"><i class="fas fa-microchip"></i> Hardware Design</span>
       <span class="meta-item"><i class="fas fa-code"></i> VHDL</span>
     </div>
@@ -292,5 +398,3 @@ Implemented a sophisticated Python-based Linear Feedback Shift Register (LFSR) c
     </div>
   </div>
 </div>
-
-
