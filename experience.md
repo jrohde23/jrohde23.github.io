@@ -65,7 +65,7 @@ permalink: /experience/
       </div>
       <div class="bubble-body">
         <div class="achievement-bubble"><i class="fas fa-trophy"></i> 3.0 GPA</div>
-        <div class="achievement-bubble"><i class="fas fa-users"></i> Club Baseball All American </div>
+        <div class="achievement-bubble"><i class="fas fa-users"></i> Club Baseball Player </div>
         <div class="achievement-bubble"><i class="fas fa-medal"></i> 2nd Place: Cyber Defense Competition</div>
         <div class="achievement-bubble"><i class="fas fa-code"></i> CompTIA Sec+ Certified </div>
       </div>
