@@ -152,7 +152,7 @@ body {
       color: var(--muted);
   max-width: 800px;
   margin: 0 auto 3rem;
-      line-height: 1.6;
+  line-height: 1.6;
   font-weight: 400;
     }
     
@@ -355,6 +355,43 @@ input[type="checkbox"] {
   margin: 0 auto;
 }
 
+// Reflections page styling
+.reflections-hero {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.05));
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.reflections-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.reflections-hero p {
+  font-size: 1.2rem;
+  color: var(--muted);
+  margin: 0;
+}
+
+.paper-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
 .resume-image {
   max-width: 100%;
   height: auto;
@@ -431,7 +468,7 @@ input[type="checkbox"] {
 }
 
 .site-title { 
-  color: var(--text) !important; 
+  color: var(--text) !important;
   font-size: 1.5rem;
   font-weight: 700;
   text-decoration: none;
@@ -1238,6 +1275,24 @@ input[type="checkbox"] {
   
   .resume-image {
     border-radius: 0.75rem;
+  }
+  
+  .reflections-hero {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .reflections-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .reflections-hero p {
+    font-size: 1rem;
+  }
+  
+  .paper-container {
+    padding: 1rem;
+    min-height: 60vh;
   }
 }
 
