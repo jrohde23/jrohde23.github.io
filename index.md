@@ -1,14 +1,9 @@
----
-layout: home
-title: Justin Rohde — Portfolio
 
-description: Cybersecurity engineering student, red teaming enthusiast, builder of systems & tools.
----
 
 <div class="hero">
   <img src="/assets/images/HEADSHOT.JPG" alt="Justin Rohde" class="profile-photo">
   <h1>Welcome to My Portfolio</h1>
-  <p class="lead">I design secure systems, automate risk workflows, and turn ideas into shipped tools.</p>
+  <p class="lead">I am interested in all things cybersecurity related, especially digital forensics and pen testing</p>
   <div class="cta-row">
     <a class="btn btn-primary" href="/projects/">View Projects</a>
     <a class="btn btn-secondary" href="/experience/">Experience</a>
