@@ -212,7 +212,6 @@ permalink: /projects/
     <div class="cert-placeholder">
       <i class="fas fa-code"></i>
       <span>CyFinder App</span>
-      <a href="#" class="view-cert">View Demo</a>
     </div>
   </div>
 </div>
