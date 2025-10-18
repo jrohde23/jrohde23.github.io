@@ -11,9 +11,9 @@ permalink: /reflections/
 
 <div class="paper-container">
   <div class="document-viewer">
-    <iframe src="/reflections/CYBE234-Ethics-Paper.pdf" class="pdf-viewer"></iframe>
+    <iframe src="/assets/documents/reflections/annotated-CPR%20E%20234-Final%20Paper%20JR.docx.pdf" class="pdf-viewer"></iframe>
     <div class="viewer-controls">
-      <a href="/reflections/CYBE234-Ethics-Paper.pdf" target="_blank" class="view-cert">
+      <a href="/assets/documents/reflections/annotated-CPR%20E%20234-Final%20Paper%20JR.docx.pdf" target="_blank" class="view-cert">
         <i class="fas fa-external-link-alt"></i> Open Full Document
       </a>
     </div>
