@@ -11,10 +11,14 @@ permalink: /reflections/
 
 <div class="paper-container">
   <div class="document-viewer">
-    <iframe src="/assets/documents/reflections/annotated-CPR%20E%20234-Final%20Paper%20JR.docx.pdf" class="pdf-viewer"></iframe>
+    <div class="document-placeholder">
+      <i class="fas fa-file-word" style="font-size: 4rem; color: #2b579a; margin-bottom: 1rem;"></i>
+      <h3>CPR E 234 Ethics Paper</h3>
+      <p>Click below to download and view the Word document</p>
+    </div>
     <div class="viewer-controls">
-      <a href="/assets/documents/reflections/annotated-CPR%20E%20234-Final%20Paper%20JR.docx.pdf" target="_blank" class="view-cert">
-        <i class="fas fa-external-link-alt"></i> Open Full Document
+      <a href="/assets/documents/reflections/CPR%20E%20234-Final%20Paper%20JR.docx" target="_blank" class="view-cert">
+        <i class="fas fa-download"></i> Download Word Document
       </a>
     </div>
   </div>
