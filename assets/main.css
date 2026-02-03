@@ -1372,3 +1372,126 @@ input[type="checkbox"] {
   color: var(--muted);
 }
 
+.experience-shell {
+  max-width: 1100px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+.experience-panel {
+  background: radial-gradient(circle at top left, rgba(79,70,229,0.25), transparent 55%),
+              radial-gradient(circle at bottom right, rgba(6,182,212,0.18), transparent 55%),
+              var(--card);
+  border-radius: 2rem;
+  padding: 2.5rem 2.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 20px 45px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(255, 255, 255, 0.03);
+}
+
+.experience-header h1 {
+  font-size: 2.4rem;
+  margin: 0 0 0.5rem 0;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.experience-header p {
+  margin: 0 0 2rem 0;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.experience-row {
+  display: grid;
+  grid-template-columns: 140px 1fr;
+  align-items: stretch;
+  padding: 1.15rem 1.5rem;
+  border-radius: 1rem;
+  background: rgba(5, 10, 30, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  color: var(--text);
+}
+
+.experience-row.current-role {
+  background: linear-gradient(135deg, rgba(79,70,229,0.35), rgba(6,182,212,0.2));
+  border-color: rgba(148, 163, 253, 0.6);
+  box-shadow: 0 14px 35px rgba(79, 70, 229, 0.45);
+}
+
+.experience-dates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.1rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.experience-dates span:first-child {
+  opacity: 0.9;
+}
+
+.experience-dates span:last-child {
+  opacity: 0.7;
+}
+
+.experience-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+}
+
+.experience-title {
+  font-weight: 600;
+  font-size: 1.05rem;
+}
+
+.experience-company {
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.experience-summary {
+  font-size: 0.95rem;
+  color: var(--muted);
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .experience-shell {
+    margin: 2rem 0;
+    padding: 1rem;
+  }
+
+  .experience-panel {
+    padding: 1.75rem 1.5rem;
+    border-radius: 1.5rem;
+  }
+
+  .experience-header h1 {
+    font-size: 2rem;
+  }
+
+  .experience-row {
+    grid-template-columns: 1fr;
+    gap: 0.35rem;
+  }
+
+  .experience-dates {
+    flex-direction: row;
+    gap: 0.35rem;
+    font-size: 0.9rem;
+  }
+}
+
+
