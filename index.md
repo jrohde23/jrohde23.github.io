@@ -1,7 +1,6 @@
 
 
 <div class="hero">
-  <img src="/assets/images/HEADSHOT.JPG" alt="Justin Rohde" class="profile-photo">
   <h1>Welcome to My Portfolio</h1>
   <p class="lead">I am interested in all things cybersecurity related, especially digital forensics and pen testing</p>
   <div class="cta-row">

@@ -4,7 +4,10 @@ title: About
 permalink: /about/
 ---
 
-## About Me
+<div class="hero">
+  <img src="/assets/images/HEADSHOT.JPG" alt="Justin Rohde" class="profile-photo">
+  <h1>About Me</h1>
+</div>
 
 I’m Justin Rohde, a cybersecurity engineering student at Iowa State University (Class of 2026) with a deep interest in red teaming, secure system design, and turning ideas into shipped tools.
 
@@ -16,7 +19,7 @@ Outside of technical work, I enjoy problem solving, teaching others what I learn
 
 ## Career Objective
 
-My long-term goal is to become a cybersecurity architect who bridges the gap between theoretical security concepts and real-world implementation. I’m especially passionate about:
+My long-term goal is to become a cybersecurity architect who bridges the gap between AI and Cybersecurity. I’m especially passionate about:
 
 - **Designing resilient systems** that withstand sophisticated attacks  
 - **Automating security workflows** to reduce human error and improve reliability  
