@@ -4,72 +4,27 @@ title: Experience
 permalink: /experience/
 ---
 
-<div class="experience-hero">
-  <h1>My Journey</h1>
-  <p>Building security solutions and leading teams across diverse industries</p>
-</div>
+## Experience
 
-<div class="bubble-timeline">
-  <div class="timeline-line"></div>
-  
-  <!-- 2025 -->
-  <div class="experience-bubble current" data-year="2025">
-    <div class="bubble-content">
-      <div class="bubble-header">
-        <div class="bubble-icon"><i class="fas fa-shield-alt"></i></div>
-        <div class="bubble-title">
-          <h3>Information Security Engineer Intern</h3>
-          <span class="company">CIBC US</span>
-          <span class="duration">Summer 2025</span>
-        </div>
-      </div>
-      <div class="bubble-body">
-        <div class="achievement-bubble"><i class="fas fa-robot"></i> AI & Automation $50K+ & ~ 1000 hours saved annually </div>
-        <div class="achievement-bubble"><i class="fas fa-check-circle"></i> Created AI agent to risk score deficiencies, saving 100+ hours annually </div>
-        <div class="achievement-bubble"><i class="fas fa-chart-line"></i> NYDFS Application Inventory Automation: 150hrs saved</div>
-        <div class="achievement-bubble"><i class="fas fa-brain"></i> AI Risk Management: $25K saved</div>
-      </div>
-    </div>
-  </div>
+**Sr. Analyst, Information Security**  
+_2026 – Present_  
+- Lead analysis and response for security incidents, coordinating with engineering and business stakeholders.  
+- Help design and implement security controls that balance risk reduction with usability.  
+- Support security architecture decisions by evaluating tools, threat models, and control effectiveness.  
 
-  <!-- 2024 -->
-  <div class="experience-bubble" data-year="2024">
-    <div class="bubble-content">
-      <div class="bubble-header">
-        <div class="bubble-icon"><i class="fas fa-chalkboard-teacher"></i></div>
-        <div class="bubble-title">
-          <h3>Cyber Security Instructor</h3>
-          <span class="company">Comtech Telecommunications Inc.</span>
-          <span class="duration">Summer 2024</span>
-        </div>
-      </div>
-      <div class="bubble-body">
-        <div class="achievement-bubble"><i class="fas fa-users"></i> Trained 50+ cybersecurity professionals</div>
-        <div class="achievement-bubble"><i class="fas fa-laptop-code"></i> Developed hands-on lab exercises</div>
-        <div class="achievement-bubble"><i class="fas fa-certificate"></i> Created certification prep materials</div>
-        <div class="achievement-bubble"><i class="fas fa-chart-bar"></i> Improved student study habits </div>
-      </div>
-    </div>
-  </div>
+**Information Security Engineer Intern — CIBC US**  
+_Summer 2025_  
+- Automated compliance and risk workflows, saving ~1,000 hours and $50,000 annually through AI and Python solutions.  
+- Built a Python solution to automate NYDFS application inventory, reducing manual workload by 150 hours.  
+- Created an AI agent to risk score deficiencies, improving consistency and reducing review time.  
 
-  <!-- 2023 -->
-  <div class="experience-bubble" data-year="2023">
-    <div class="bubble-content">
-      <div class="bubble-header">
-        <div class="bubble-icon"><i class="fas fa-graduation-cap"></i></div>
-        <div class="bubble-title">
-          <h3>Cybersecurity Engineering Student</h3>
-          <span class="company">Iowa State University</span>
-          <span class="duration">2023 - Present</span>
-        </div>
-      </div>
-      <div class="bubble-body">
-        <div class="achievement-bubble"><i class="fas fa-trophy"></i> 3.0 GPA</div>
-        <div class="achievement-bubble"><i class="fas fa-users"></i> Club Baseball Player </div>
-        <div class="achievement-bubble"><i class="fas fa-medal"></i> 2nd Place: Cyber Defense Competition</div>
-        <div class="achievement-bubble"><i class="fas fa-code"></i> CompTIA Sec+ Certified </div>
-      </div>
-    </div>
-  </div>
+**Cyber Security Instructor — Comtech Telecommunications Inc.**  
+_Summer 2024_  
+- Delivered CyberStronger certification training with hands-on labs and real-world exercises.  
+- Developed lab content and lesson plans to reinforce core concepts in cyber defense and networking.  
 
-</div>
+**Cybersecurity Engineering Student — Iowa State University**  
+_2023 – Present_  
+- Coursework and projects focused on secure system design, incident response, and offensive security.  
+- 2nd Place in a university Cyber Defense Competition as blue-team lead.  
+- Active in club baseball and continuous technical upskilling (including CompTIA Security+).  
