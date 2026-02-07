@@ -1,6 +1,6 @@
 ---
 layout: page
-
+title: CyFinder Application
 permalink: /projects/cyfinder-app/
 ---
 
