@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Forensic Investigation Lab
+
 permalink: /projects/forensic-investigation-lab/
 ---
 

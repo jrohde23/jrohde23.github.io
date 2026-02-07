@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MIPS Processor Design
+
 permalink: /projects/mips-processor-design/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cyber Defense Competition
+
 permalink: /projects/cyber-defense-competition/
 ---
 
