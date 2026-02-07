@@ -147,6 +147,38 @@ body {
   border-radius: 2px;
 }
 
+/* Home page About section (scroll target for Get Started) */
+.home-about {
+  max-width: 900px;
+  margin: 4rem auto;
+  padding: 3rem 2rem;
+  background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.05));
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.home-about h2 {
+  margin: 0 0 1.5rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.home-about p {
+  margin: 0 0 1rem 0;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.home-about p:last-child {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
 .hero .lead {
   font-size: 1.4rem;
       color: var(--muted);
