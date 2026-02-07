@@ -9,6 +9,9 @@
   --text: #e6e9f0;
   --muted: #9aa4b2;
   --card: #121a33;
+  --card-alt: #0f1628;
+  --section-padding: 5rem;
+  --section-gap: 6rem;
 }
 
 html { scroll-behavior: smooth; }
@@ -29,8 +32,8 @@ body {
 }
 
 .page-content { 
-  padding-top: 2.5rem; 
-  padding-bottom: 4rem;
+  padding-top: var(--section-padding);
+  padding-bottom: var(--section-gap);
   max-width: 100%;
   margin: 0 auto;
 }
@@ -51,9 +54,9 @@ body {
 
 .hero {
   text-align: center;
-  padding: 4rem 3rem 5rem;
+  padding: 5rem 3rem 5.5rem;
   max-width: 1100px;
-  margin: 3rem auto;
+  margin: 0 auto var(--section-gap);
   background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.08));
   border-radius: 2.5rem;
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -150,23 +153,23 @@ body {
 
 /* Home page About section (scroll target for Get Started) */
 #about {
-  scroll-margin-top: 5rem;
+  scroll-margin-top: 6rem;
 }
 
 .home-about {
   max-width: 900px;
-  margin: 5rem auto 6rem;
-  padding: 3.5rem 2.5rem;
-  background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.05));
+  margin: 0 auto var(--section-gap);
+  padding: 4rem 3rem;
+  background: linear-gradient(135deg, var(--card-alt), rgba(79, 70, 229, 0.04));
   border-radius: 2rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
 }
 
 .home-about h2 {
   margin: 0 0 1.75rem 0;
   font-size: 2rem;
-  font-weight: 700;
+  font-weight: 800;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -195,19 +198,22 @@ body {
 
 .hero .cta-row { 
   display: flex;
-  gap: 1.25rem;
+  gap: 1rem;
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 2.5rem;
 }
 
 .btn {
-  display: inline-block;
-  padding: 1.2rem 2.5rem;
-  border-radius: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 0.75rem 1.75rem;
+  border-radius: 1rem;
   text-decoration: none;
-  font-weight: 700;
-  font-size: 1.1rem;
+  font-weight: 600;
+  font-size: 1rem;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   box-shadow: 
     0 6px 20px rgba(0, 0, 0, 0.25),
@@ -329,18 +335,18 @@ body {
 /* Projects page hero styling */
 .projects-hero {
   text-align: center;
-  padding: 4rem 2rem 4rem;
+  padding: 5rem 2rem 5rem;
   max-width: 1000px;
-  margin: 0 auto 4rem;
+  margin: 0 auto var(--section-gap);
   background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.05));
   border-radius: 2rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
 }
 
 .projects-hero h1 {
   font-size: 2.75rem;
-  font-weight: 700;
+  font-weight: 800;
   margin: 0 0 1.25rem 0;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   -webkit-background-clip: text;
@@ -362,8 +368,8 @@ body {
 }
 
 .page-content h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.6rem;
+  font-weight: 700;
   margin-top: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -409,26 +415,29 @@ input[type="checkbox"] {
   justify-content: center;
   align-items: center;
   min-height: 80vh;
-  padding: 3rem 2rem;
+  padding: var(--section-padding) 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  background: linear-gradient(135deg, var(--card-alt), rgba(79, 70, 229, 0.03));
+  border-radius: 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.06);
 }
 
 
 /* Reflections page styling */
 .reflections-hero {
   text-align: center;
-  padding: 4rem 2rem;
+  padding: 5rem 2rem;
   background: linear-gradient(135deg, var(--card), rgba(79, 70, 229, 0.05));
   border-radius: 2rem;
-  margin-bottom: 4rem;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  margin-bottom: var(--section-gap);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
 }
 
 .reflections-hero h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
+  font-size: 2.75rem;
+  font-weight: 800;
   margin: 0 0 1rem 0;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   -webkit-background-clip: text;
@@ -515,10 +524,11 @@ input[type="checkbox"] {
 }
 
 .site-header {
-  padding: 1rem 0;
+  padding: 0.875rem 0;
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
-  backdrop-filter: blur(10px);
+  background: rgba(11, 16, 32, 0.85);
+  backdrop-filter: blur(12px);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -593,8 +603,8 @@ input[type="checkbox"] {
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2.25rem;
-  margin: 3rem 0;
+  gap: 2rem;
+  margin: 0 0 var(--section-gap);
 }
 
 .project-card {
@@ -602,14 +612,14 @@ input[type="checkbox"] {
   border-radius: 1.25rem;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .project-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 28px rgba(79, 70, 229, 0.12);
-  border-color: rgba(255, 255, 255, 0.12);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+  border-color: rgba(255, 255, 255, 0.1);
 }
 
   .project-showcase {
@@ -912,22 +922,22 @@ input[type="checkbox"] {
 }
 
 .project-content {
-  padding: 1.75rem 1.5rem;
+  padding: 1.5rem 1.5rem 1.75rem;
 }
 
 .project-content h3 {
-  margin: 0 0 0.75rem 0;
+  margin: 0 0 0.5rem 0;
   color: var(--text);
-  font-size: 1.2rem;
-  font-weight: 600;
-  line-height: 1.3;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.35;
 }
 
 .project-content p {
   margin: 0;
   color: var(--muted);
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 0.9rem;
+  line-height: 1.55;
 }
 
   .experience-hero {
@@ -1519,24 +1529,23 @@ input[type="checkbox"] {
 
 .experience-shell {
   max-width: 1100px;
-  margin: 4rem auto;
-  padding: 2.5rem 2rem;
+  margin: 0 auto;
+  padding: var(--section-padding) 2rem var(--section-gap);
 }
 
 .experience-panel {
-  background: radial-gradient(circle at top left, rgba(79,70,229,0.25), transparent 55%),
-              radial-gradient(circle at bottom right, rgba(6,182,212,0.18), transparent 55%),
+  background: radial-gradient(circle at top left, rgba(79,70,229,0.12), transparent 50%),
+              radial-gradient(circle at bottom right, rgba(6,182,212,0.08), transparent 50%),
               var(--card);
   border-radius: 2rem;
-  padding: 2.5rem 2.75rem;
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  box-shadow:
-    0 20px 45px rgba(0, 0, 0, 0.55),
-    0 0 0 1px rgba(255, 255, 255, 0.03);
+  padding: 3rem 2.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
 }
 
 .experience-header h1 {
-  font-size: 2.4rem;
+  font-size: 2.5rem;
+  font-weight: 800;
   margin: 0 0 0.5rem 0;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   -webkit-background-clip: text;
