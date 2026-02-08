@@ -1,7 +1,7 @@
 ---
 layout: page
-
 permalink: /about/
+show_title: false
 ---
 
 <div class="about-content">

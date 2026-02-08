@@ -2,12 +2,13 @@
 layout: page
 title: Experience
 permalink: /experience/
+show_title: false
 ---
 
 <div class="experience-shell">
   <div class="experience-panel">
     <div class="experience-header">
-      <h1>My Experience</h1>
+      <h1>Experience</h1>
       <p>Roles where I’ve applied security, engineering, and teaching in real environments.</p>
     </div>
 

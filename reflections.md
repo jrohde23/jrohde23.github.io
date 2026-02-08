@@ -2,6 +2,7 @@
 layout: page
 title: Reflections
 permalink: /reflections/
+show_title: false
 ---
 
 <div class="reflections-hero">

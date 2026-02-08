@@ -2,6 +2,7 @@
 layout: page
 title: Secure Wireless Aircraft Data Load
 permalink: /projects/senior-design/
+show_title: false
 ---
 
 <div class="projects-hero">

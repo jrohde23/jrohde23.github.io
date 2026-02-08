@@ -2,6 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
+show_title: false
 ---
 
 <div class="projects-hero">

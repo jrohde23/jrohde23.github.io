@@ -2,6 +2,7 @@
 layout: page
 title: Cyber Defense Competition
 permalink: /projects/cyber-defense-competition/
+show_title: false
 ---
 
 <div class="projects-hero">

@@ -2,6 +2,7 @@
 layout: page
 title: MIPS Processor Design
 permalink: /projects/mips-processor-design/
+show_title: false
 ---
 
 <div class="projects-hero">

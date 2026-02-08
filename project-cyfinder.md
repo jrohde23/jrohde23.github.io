@@ -2,6 +2,7 @@
 layout: page
 title: CyFinder Application
 permalink: /projects/cyfinder-app/
+show_title: false
 ---
 
 <div class="projects-hero">
